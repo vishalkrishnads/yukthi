@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
   const trigger = useRef(null);
-  const aboutdarpan = useRef(null);
+  const aboutyukthi = useRef(null);
   const aboutaec = useRef(null);
 
   useEffect(() => {
@@ -29,35 +29,6 @@ export default function About() {
         },
       }
     );
-    // gsap.fromTo(
-    //   aboutdarpan.current,
-    //   { opacity: 0, y: 100 },
-    //   {
-    //     opacity: 1,
-    //     y: 0,
-    //     scrollTrigger: {
-    //       trigger: aboutdarpan.current,
-    //       start: "top 70%",
-    //       scrub: true,
-    //       ease: "expo.eae-InOut",
-    //     },
-    //   }
-    // );
-    // gsap.fromTo(
-    //   aboutaec.current,
-    //   { opacity: 0, y: 100 },
-    //   {
-    //     opacity: 1,
-    //     y: 0,
-    //     scrollTrigger: {
-    //       trigger: aboutaec.current,
-    //       start: "top 80%",
-    //       end: "bottom 80%",
-    //       scrub: true,
-    //       ease: "expo.eae-InOut",
-    //     },
-    // //   }
-    // );
   }, []);
 
   return (
@@ -77,7 +48,7 @@ export default function About() {
       </div>
       <div className="font-chakra text-base py-8 leading-[5px] xl:mt-4">
         <span
-          ref={aboutdarpan}
+          ref={aboutyukthi}
           className="text-base font-medium text-white xl:text-xl"
         >
           <b>YUKTHI'24</b> is the upcoming inaugural tech fest conducted by STIST. It is an exciting adventure created to inspire the creativity and passion of tech enthusiasts in India. Yukthi is organised by the Mulearn and FOSS United College Chapters, inviting students from all over the country to join in a celebration of technology, creativity, and teamwork. The <b>three-day</b> event encompasses activities such as hackathons, tech talks, workshops and various other competitions to enrich the overall learning experience. Yukthi offers its diverse attendees the option to choose these events based on their own individual interests and learning styles. Yukthi is one of its kind as it promises to leave a lasting impact on the individual and open new pathways for students to propel their careers. Come lets solve, create and thrive together!
@@ -85,7 +56,7 @@ export default function About() {
       </div>
       <div className="absolute font-clash font-bold text-white">
         <span className="flex gap-6 text-[3.3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] xl:text-[5.5rem]">
-          About <Navlink name={"AEC"} link={"/#about"} />{" "}
+          About <Navlink name={"STIST"} link={"/#about"} />{" "}
         </span>
       </div>
       <div

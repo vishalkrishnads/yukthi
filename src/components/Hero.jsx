@@ -82,6 +82,8 @@ function Hero() {
           <b className="text-[16px]">TH</b>
           16
           <b className="text-[16px]">TH</b>
+          17
+          <b className="text-[16px]">TH</b>
         </span>
         <Image
           src="/edgeTriangle.png"

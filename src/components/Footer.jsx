@@ -56,7 +56,7 @@ export default function Footer() {
                 <AiOutlineGlobal size="3rem" />
               </Link>
               <Link
-                href="https://instagram.com/darpan_2023?igshid=YmMyMTA2M2Y="
+                href="https://www.instagram.com/yukthi_stist"
                 className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:text-main_primary"
               >
                 <FaInstagram size="3rem" />
