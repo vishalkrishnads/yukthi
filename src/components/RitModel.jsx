@@ -5,7 +5,7 @@ export default function RitModel() {
   const itemList = [
     {
       id: 1,
-      title: "Cultural",
+      title: "Hackathon",
       image: "/slider/cultural.jpg",
     },
     {

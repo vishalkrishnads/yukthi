@@ -5,8 +5,8 @@ export default function EventSlider() {
   
   const shades = [
     {
-      'label': 'Hunts',
-      'poster': '/hunts.png'
+      'label': 'Hackathon',
+      'poster': '/hackathon.png'
     },
     {
       'label': 'Games',
