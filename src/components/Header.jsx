@@ -154,7 +154,7 @@ export default function Header() {
                 </p>
               </div>
               {routes.map((item, index) => {
-                return <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+                return <div key={index} className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
                   <Navlink name={item.label.toUpperCase()} link={item.action} setToggle={setOpen} />
                   <Image
                     src="/edgeTriangle.png"
