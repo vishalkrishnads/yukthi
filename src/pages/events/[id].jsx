@@ -3,10 +3,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
 import fsPromises from "fs/promises";
 import path from "path";
 import { gsap } from "gsap";
+import Title from "@/components/Head";
 
 function EventsDetails(props) {
   //create a pop up for the event Registration showing the embeded form
@@ -44,9 +44,7 @@ function EventsDetails(props) {
 
   return (
     <>
-      <Head>
-        <title>Event Details</title>
-      </Head>
+      <Title title={props.title} description={props.description} />
       <section>
         <Header />
         <div className="h-fit pt-24 p-6 bg-black text-white">

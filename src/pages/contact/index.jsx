@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
@@ -21,9 +20,7 @@ export default function Contact(props) {
 
   return (
     <div className="h-fit w-screen bg-black">
-      <Head>
-        <title>Yukthi - Contact</title>
-      </Head>
+      <Title title={'Contact - Yukthi'} description={'Feel free to contact us!'} />
       <Header id="Navbar" />
       {/* <progress max="100" value="0"></progress> */}
       <main className='pt-[5.5rem] bg-[url("/signup.jpg")] h-full'>
@@ -65,6 +62,7 @@ export default function Contact(props) {
 
 import fsPromises from "fs/promises";
 import path from "path";
+import Title from "@/components/Head";
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), "contact.json");
   const jsonData = await fsPromises.readFile(filePath);
