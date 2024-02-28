@@ -13,7 +13,7 @@ import gsap from "gsap";
 import fsPromises from "fs/promises";
 import path from "path";
 import RitModel from "@/components/RitModel";
-import EventSlider from "@/components/EventSlider";
+// import EventSlider from "@/components/EventSlider";
 // import Partical from "@/components/Partical";
 
 const Home = () => {
@@ -44,7 +44,7 @@ const Home = () => {
           ref={stagger}
           className="hidden xl:block relative w-full text-center top-[7rem] z-[10]"
         >
-          <p className="text-white pl-[1.5rem] top-[6rem] uppercase font-akira text-[2.0rem] tracking-wide">
+          <p className="text-white pl-[1.5rem] top-[6rem] uppercase font-clash font-bold text-[2.5rem] tracking-wide">
             ST. THOMAS INSTITUTE FOR SCIENCE & TECHNOLOGY
           </p>
           <p className="text-white font-clash italic text-xl">PRESENTS</p>
@@ -58,7 +58,7 @@ const Home = () => {
 
       {isLoaded && <Clock />}
 
-      <EventSlider />
+      {/* <EventSlider /> */}
 
       {/* <Partical/> */}
 
