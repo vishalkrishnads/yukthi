@@ -174,8 +174,8 @@ function EventsDetails(props) {
               </button>
             </div>
             <iframe
-              width="100%"
-              height="90%"
+              className="w-11/12 md:w-4/5"
+              height="85%"
               src={props.reglink}
             ></iframe>
           </div>
