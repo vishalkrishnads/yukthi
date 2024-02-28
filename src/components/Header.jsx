@@ -59,6 +59,10 @@ export default function Header() {
       label: 'Teams',
       action: '/teams'
     },
+    {
+      label: 'Contact',
+      action: '/contact'
+    }
   ]
 
   return (

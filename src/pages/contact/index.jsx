@@ -22,8 +22,7 @@ export default function Contact(props) {
     <div className="h-fit w-screen bg-black">
       <Title title={'Contact - Yukthi'} description={'Feel free to contact us!'} />
       <Header id="Navbar" />
-      {/* <progress max="100" value="0"></progress> */}
-      <main className='pt-[5.5rem] bg-[url("/signup.jpg")] h-full'>
+      <main className='pt-[5.5rem] bg-[url("/contact.png")] h-full'>
         <div className="flex flex-col text-center items-center justify-center h-full gap-2">
           <h1 className="text-5xl text-white font-clash font-semibold">
             Yukthi '24&nbsp; Contact
