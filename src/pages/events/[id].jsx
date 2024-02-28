@@ -128,7 +128,7 @@ function EventsDetails(props) {
                 <button
                   className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
                   onClick={() => {
-                    props.reg == "Register Closed" ? null : setPopUp(true);
+                    props.reg == "Register Closed" ? null : props.embed ? setPopUp(true) : window.open(props.reglink, '_blank');
                   }}
                 >
                   {props.reg}
@@ -228,6 +228,7 @@ export async function getStaticProps(context) {
       register: post.reg,
       reglink: post.reglink,
       reg: post.reg,
+      embed: post.embed || false,
       rulehead: post.ruleheader,
       rule1: post.rules.rule1,
       rule2: post.rules.rule2,
