@@ -9,7 +9,7 @@ import path from "path";
 import Title from "@/components/Head";
 
 function Team(props) {
-  const [index, setIndex] = useState(0);
+  const [index] = useState(0);
   const tabs = props.tabs;
   console.log("tabs", tabs);
 
