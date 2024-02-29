@@ -50,21 +50,21 @@
               "id": "l1",
               "name": "Muhammed Ziyan Ummali",
               "post": "Operations Lead",
-              "img": "/teams/l1.jpg",
+              "img": "/teams/l1.png",
               "insta": "muhammed.ziy.an"
             },
             {
               "id": "l2",
               "name": "Abi Krishna S",
               "post": "Design Lead",
-              "img": "/teams/l2.jpg",
+              "img": "/teams/l2.png",
               "insta": "abi_krishna_s"
             },
             {
               "id": "l3",
               "name": "Dev Nandan S",
               "post": "UI/UX Lead",
-              "img": "/teams/l3.jpg",
+              "img": "/teams/l3.png",
               "insta": "_nxndxn_"
             },
             {
@@ -95,6 +95,14 @@
               "name": "Pranav Jerry",
               "post": "Networking Lead",
               "img": "/teams/l7.jpg"
+            },
+            {
+              "id": "l8",
+              "name": "Anshu Jaiswal",
+              "post": "Program Lead",
+              "img": "/teams/l8.jpg",
+              "insta": "fiction_al",
+              "linkedin":  "anshu-kumar-a40327256"
             }
           ]
         },
@@ -119,7 +127,7 @@
               "id": "c3",
               "name": "Darshan Kumar",
               "post": "Sponsorship Coordinator",
-              "img": "/teams/c3.jpg",
+              "img": "/teams/c3.png",
               "insta": ".dxrsh."
             },
             {
