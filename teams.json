@@ -33,13 +33,13 @@
               "id": "s1",
               "name": "Archana",
               "post": "Faculty in-charge",
-              "img": "/staff/s1.jpg"
+              "img": "/teams/s1.jpg"
             },
             {
               "id": "s2",
               "name": "Bindu Ann Thomas",
               "post": "Campus Enbaler",
-              "img": "/staff/s2.jpg"
+              "img": "/teams/s2.jpg"
             }
           ]
         },
@@ -89,6 +89,12 @@
               "insta": "vishalds_",
               "github": "vishalkrishnads",
               "linkedin":  "vishalkrishnads"
+            },
+            {
+              "id": "l7",
+              "name": "Pranav Jerry",
+              "post": "Networking Lead",
+              "img": "/teams/l7.jpg"
             }
           ]
         },
@@ -124,9 +130,18 @@
             },
             {
               "id": "c5",
+              "name": "Muhammed Ijas",
+              "post": "Logistics Coordinator",
+              "img": "/teams/c5.jpg",
+              "github": "_ija.z",
+              "insta": "_ija.z",
+              "linkedin": "muhammed-ijas-27544b1b6"
+            },
+            {
+              "id": "c6",
               "name": "Sabal Krishna S",
               "post": "Student Coordinator",
-              "img": "/teams/c5.jpg"
+              "img": "/teams/c6.jpg"
             }
           ]
         },
