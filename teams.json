@@ -27,6 +27,23 @@
           ]
         },
         {
+          "name": "Staff",
+          "members": [
+            {
+              "id": "s1",
+              "name": "Archana",
+              "post": "Faculty in-charge",
+              "img": "/staff/s1.jpg"
+            },
+            {
+              "id": "s2",
+              "name": "Bindu Ann Thomas",
+              "post": "Campus Enbaler",
+              "img": "/staff/s2.jpg"
+            }
+          ]
+        },
+        {
           "name": "Leads",
           "members": [
             {

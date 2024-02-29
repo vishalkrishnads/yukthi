@@ -549,7 +549,40 @@
       }
     ],
     [],
-    [],
+    [
+      {
+        "id": "fora",
+        "title": "Fora - Paper Presentation",
+        "img": "/eee/fora.jpg",
+        "content": "Experience the magic of AR/VR with this amazing workshop! 🔮",
+        "description": "Join us for a fun and interactive workshop that will teach you the basics and possibilities of augmented and virtual reality. You will learn how to create your own AR/VR projects. You will also explore the different use cases and benefits of AR/VR in various fields and sectors.",
+        "c1name": "Ashmith",
+        "c2name": "Vidhya",
+        "c1no": "9074646381",
+        "c2no": "7736998870",
+        "pricepool": false,
+        "regfee": "100, refundable",
+        "enddate": "2023-04-26",
+        "reglink": "https://forms.gle/jk2TKNHmKYdo1KKz9",
+        "reg": "Register Now",
+        "ruleheader": "Guildelines",
+        "rules": {
+          "rule1": "📌 Participation certificates will be provided.",
+          "rule2": "📌 30 KTU activity points",
+          "rule3": "📌 The entry fee of ₹100 will be refunded upon completion. It is treated as a caution deposit.",
+          "rule4": "📌 No prior experience in the field is necessary.",
+          "rule5": "",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+    ],
     [
       {
         "id": "arvr",
