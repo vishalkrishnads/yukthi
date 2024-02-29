@@ -61,7 +61,7 @@
               "id": "l5",
               "name": "Jeevan Deepan",
               "post": "Media Lead",
-              "img": "/teams/unknown.png",
+              "img": "/teams/l5.jpg",
               "insta": "jeev4nn"
             },
             {
@@ -122,6 +122,13 @@
               "post": "Finance Manager",
               "img": "/teams/m1.jpg",
               "insta": "s.x.ur.x.bh_n.x.nd.x.n"
+            },
+            {
+              "id": "m2",
+              "name": "Fahad Nazar",
+              "post": "Social Media Manager",
+              "img": "/teams/m2.jpg",
+              "insta": "fx.had._._"
             }
           ]
         }
