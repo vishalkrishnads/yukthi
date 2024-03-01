@@ -45,7 +45,7 @@
     {
       "id": "7",
       "title": "Media Lead",
-      "sub": "Computer Science",
+      "sub": "Mechanical Engineering",
       "name": "Jeevan Deepan",
       "ph": "9995230251"
     },
@@ -59,9 +59,9 @@
     {
       "id": "9",
       "title": "Competition Coordinator",
-      "sub": "Computer Science",
+      "sub": "Electronics & Electrical",
       "name": "Karthik Shankar",
-      "ph": "526358955"
+      "ph": "9526358955"
     },
     {
       "id": "10",
@@ -73,7 +73,7 @@
     {
       "id": "11",
       "title": "Sponsorship Coordinator",
-      "sub":"",
+      "sub":"Computer Science",
       "name": "Darshan Kumar",
       "ph": "8547851467"
     },
@@ -97,6 +97,62 @@
       "sub": "Computer Science",
       "name": "Saurabh Nandan",
       "ph": "9496995240"
+    },
+    {
+      "id": "15",
+      "title": "Social Media Manager",
+      "sub": "Computer Science",
+      "name": "Fahad Nazar",
+      "ph": "7025596146"
+    },
+    {
+      "id": "16",
+      "title": "Faculty in-charge",
+      "sub": "Dept. of Science",
+      "name": "Archana T",
+      "ph": "9496658669"
+    },
+    {
+      "id": "17",
+      "title": "Campus Enabler",
+      "sub": "Dept. of Computer Science",
+      "name": "Bindu Ann Thomas",
+      "ph": "9447128393"
+    },
+    {
+      "id": "18",
+      "title": "Taeziz",
+      "sub": "Dept. of Civil Engineering",
+      "name": "Aarathy MT",
+      "ph": "8301954067"
+    },
+    {
+      "id": "19",
+      "title": "Torque",
+      "sub": "Dept. of Mechanical Engineering",
+      "name": "Viswanath SP",
+      "ph": "9497267166"
+    },
+    {
+      "id": "20",
+      "title": "Synergy",
+      "sub": "Dept. of Electrical & Electronics",
+      "name": "Jisha Ann Jacob",
+      "ph": "9446125558"
+    },
+    {
+      "id": "21",
+      "title": "Elexer",
+      "sub": "Dept. of Electronics Engineering",
+      "name": "Neetha Merin Thomas",
+      "ph": "9447758348"
+    },
+    {
+      "id": "22",
+      "title": "XCoders",
+      "sub": "Dept. of Computer Science",
+      "name": "Shinu Mamachan",
+      "ph": "9846518861"
     }
   ]
 }
