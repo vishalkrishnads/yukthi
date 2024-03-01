@@ -13,7 +13,7 @@ import RitModel from "@/components/RitModel";
 import EventSlider from "@/components/EventSlider";
 import Title from "@/components/Head";
 
-const Home = ({ meta }) => {
+const Home = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Home = ({ meta }) => {
 
   return (
     <div className="bg-black h-fit">
-      <Title meta={meta}/>
+      <Title title={'Yukthi'} description={"Solve. Create. Thrive"} route={"/"} />
 
       <Header id="navbar" />
 
@@ -78,20 +78,3 @@ const Home = ({ meta }) => {
 
 export default Home;
 
-export async function getStaticProps() {
-  const title = 'Yukthi';
-  const description = 'Solve. Create. Thrive';
-  const domain = "https://yukthi.org";
-  const url = `${domain}/`;
-
-  return {
-    props: {
-      meta: {
-        title,
-        description,
-        url,
-        image: `${domain}/twitter.png`,
-      },
-    },
-  };
-}

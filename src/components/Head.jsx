@@ -1,25 +1,27 @@
-import Head from 'next/head';
+import { NextSeo } from "next-seo";
 
-export default function Title({ meta }) {
-  return (
-    <Head>
-      <title>{meta.title}</title>
-      <meta name="title" content={meta.title} />
-      <meta name="description" content={meta.description} />
-
-      {/* Open Graph / Facebook */}
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content={meta.url} />
-      <meta property="og:title" content={meta.title} />
-      <meta property="og:description" content={meta.description} />
-      <meta property="og:image" content={meta.image} />
-
-      {/* Twitter */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={meta.url} />
-      <meta property="twitter:title" content={meta.title} />
-      <meta property="twitter:description" content={meta.description} />
-      <meta property="twitter:image" content={meta.image} />
-    </Head>
-  );
+export default function Title({ title, description, route }) {
+  return <NextSeo
+      title={title}
+      description={description}
+      canonical="https://www.yukthi.org/"
+      openGraph={{
+        url: `https://www.yukthi.org${route}`,
+        title,
+        description,
+        images: [
+          {
+            url: 'https://yukthi.org/seo.png',
+            width: 800,
+            height: 740,
+            alt: 'Yukthi - Solve.Create.Thrive',
+            type: 'image/png',
+          }
+        ],
+        siteName: 'Yukthi',
+      }}
+      twitter={{
+        cardType: 'summary_large_image',
+      }}
+    />;
 }
