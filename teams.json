@@ -31,9 +31,10 @@
           "members": [
             {
               "id": "s1",
-              "name": "Archana",
+              "name": "Archana T",
               "post": "Faculty in-charge",
-              "img": "/teams/s1.jpg"
+              "img": "/teams/s1.jpg",
+              "insta": "archa.na5825"
             },
             {
               "id": "s2",
@@ -89,7 +90,7 @@
               "img": "/teams/l6.jpg",
               "insta": "vishalds_",
               "github": "vishalkrishnads",
-              "linkedin":  "vishalkrishnads"
+              "linkedin": "vishalkrishnads"
             },
             {
               "id": "l7",
@@ -112,7 +113,7 @@
           "members": [
             {
               "id": "c1",
-              "name": "Karthik Shankar",
+              "name": "Karthik Sankar",
               "post": "Competition Coordinator",
               "img": "/teams/c1.jpg",
               "insta": "Kya_rthik"
@@ -135,7 +136,8 @@
               "id": "c4",
               "name": "Abhishek",
               "post": "Ambience Coordinator",
-              "img": "/teams/c4.jpg"
+              "img": "/teams/c4.jpg",
+              "insta": "arkitheaa"
             },
             {
               "id": "c5",
