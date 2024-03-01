@@ -44,7 +44,7 @@ function EventsDetails(props) {
 
   return (
     <>
-      <Title meta={props.meta}/>
+      <Title title={props.title} description={props.description} route={`/events/${props.id}`}/>
       <section>
         <Header />
         <div className="h-fit pt-24 p-6 bg-black text-white">
@@ -215,8 +215,6 @@ export async function getStaticProps(context) {
 
   const post = objectData.posts.flat().find((post) => post.id == id);
 
-  const domain = "https://yukthi.org";
-
   return {
     props: {
       title: post.title,
@@ -248,12 +246,7 @@ export async function getStaticProps(context) {
       rule11: post.rules.rule11,
       rule12: post.rules.rule12,
       rule13: post.rules.rule13,
-      meta: {
-        title: post.title,
-        description: post.description,
-        url: `${domain}/events/${id}`,
-        image: `${domain}/twitter.png`,
-      }
+      route: id
     },
   };
 }
