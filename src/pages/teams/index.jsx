@@ -13,11 +13,10 @@ function Team(props) {
   const [loading, setLoading] = useState({})
 
   const tabs = props.tabs;
-  console.log("tabs", tabs);
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title meta={props.meta} />
+      <Title title={'Teams - Yukthi'} description={"We set the stage for Yukthi '24"} route={'/teams'} />
       <Header id="navbar" />
 
       <main>
@@ -122,18 +121,6 @@ export async function getStaticProps() {
   const filePath = path.join(process.cwd(), "/teams.json");
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
-
-  const title = 'Teams - Yukthi';
-  const description = "We set the stage for Yukthi '24";
-  const domain = "https://yukthi.org";
-  const url = `${domain}/teams`;
-
-  objectData.meta = {
-    title,
-    description,
-    url,
-    image: `${domain}/twitter.png`,
-  }
 
   return {
     props: objectData,
