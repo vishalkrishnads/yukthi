@@ -99,11 +99,16 @@ function EventsDetails(props) {
                     </div>
                   </div>
 
-                  <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
-                    Coordinator Details
+                {props.c1name ? <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
+                  Coordinator Details
+                </h3> :
+                <Link href={'/events'}>
+                  <h3 className="text-white hover:text-main_primary text-[1.5rem] font-sans font-bold mb-2 mt-4">
+                    Browse other events
                   </h3>
+                </Link>}
 
-                  <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
+                  {props.c1name && <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
                     <div className="flex flex-col pr-4">
                       <span>{props.c1name} :</span>
                       {props.c2name != false && <span>{props.c2name} :</span>}
@@ -114,13 +119,13 @@ function EventsDetails(props) {
                           +91 {props.c1number}
                         </span>
                       </Link>
-                      <Link href={`tel:+91${props.c2number}`}>
+                      {props.c2name && <Link href={`tel:+91${props.c2number}`}>
                         <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
                           +91 {props.c2number}
                         </span>
-                      </Link>
+                      </Link>}
                     </div>
-                  </div>
+                  </div>}
                 </div>
 
                 <button
