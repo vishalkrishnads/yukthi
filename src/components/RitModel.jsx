@@ -11,7 +11,7 @@ export default function RitModel() {
     {
       id: 2,
       title: "Talks",
-      image: "/slider/events.jpg",
+      image: "/slider/talks.jpg",
     },
     {
       id: 3,
