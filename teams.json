@@ -31,10 +31,9 @@
           "members": [
             {
               "id": "s1",
-              "name": "Archana T",
+              "name": "Archana",
               "post": "Faculty in-charge",
-              "img": "/teams/s1.jpg",
-              "insta": "archa.na5825"
+              "img": "/teams/s1.jpg"
             },
             {
               "id": "s2",
@@ -48,20 +47,6 @@
         {
           "name": "Leads",
           "members": [
-            {
-              "id": "l7",
-              "name": "Pranav Jerry",
-              "post": "Networking Lead",
-              "img": "/teams/l7.jpg"
-            },
-            {
-              "id": "l8",
-              "name": "Anshu Jaiswal",
-              "post": "Program Lead",
-              "img": "/teams/l8.jpg",
-              "insta": "fiction_al",
-              "linkedin":  "anshu-kumar-a40327256"
-            },
             {
               "id": "l1",
               "name": "Muhammed Ziyan",
@@ -96,6 +81,30 @@
               "post": "Media Lead",
               "img": "/teams/l5.jpg",
               "insta": "jeev4nn"
+            },
+            {
+              "id": "l6",
+              "name": "Vishal Krishna",
+              "post": "Technical Lead",
+              "img": "/teams/l6.jpg",
+              "insta": "vishalds_",
+              "github": "vishalkrishnads",
+              "linkedin": "vishalkrishnads"
+            },
+            {
+              "id": "l7",
+              "name": "Pranav Jerry",
+              "post": "Networking Lead",
+              "img": "/teams/l7.jpg",
+              "mastodonurl": "https://fe.disroot.org/@libreinator"
+            },
+            {
+              "id": "l8",
+              "name": "Anshu Jaiswal",
+              "post": "Program Lead",
+              "img": "/teams/l8.jpg",
+              "insta": "fiction_al",
+              "linkedin": "anshu-kumar-a40327256"
             }
           ]
         },
@@ -103,24 +112,8 @@
           "name": "Coordinators",
           "members": [
             {
-              "id": "c4",
-              "name": "Abhishek",
-              "post": "Ambience Coordinator",
-              "img": "/teams/c4.jpg",
-              "insta": "arkitheaa"
-            },
-            {
-              "id": "c5",
-              "name": "Muhammed Ijas",
-              "post": "Logistics Coordinator",
-              "img": "/teams/c5.jpg",
-              "github": "_ija.z",
-              "insta": "_ija.z",
-              "linkedin": "muhammed-ijas-27544b1b6"
-            },
-            {
               "id": "c1",
-              "name": "Karthik Sankar",
+              "name": "Karthik Shankar",
               "post": "Competition Coordinator",
               "img": "/teams/c1.jpg",
               "insta": "Kya_rthik"
@@ -138,6 +131,21 @@
               "post": "Sponsorship Coordinator",
               "img": "/teams/c3.png",
               "insta": ".dxrsh."
+            },
+            {
+              "id": "c4",
+              "name": "Abhishek",
+              "post": "Ambience Coordinator",
+              "img": "/teams/c4.jpg"
+            },
+            {
+              "id": "c5",
+              "name": "Muhammed Ijas",
+              "post": "Logistics Coordinator",
+              "img": "/teams/c5.jpg",
+              "github": "_ija.z",
+              "insta": "_ija.z",
+              "linkedin": "muhammed-ijas-27544b1b6"
             },
             {
               "id": "c6",
