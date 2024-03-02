@@ -865,6 +865,38 @@
           "rule12": "",
           "rule13": ""
         }
+      },
+      {
+        "id": "flutter",
+        "title": "Flutter App Development",
+        "img": "/workshop/flutter.png",
+        "content": "Join us for an interactive workshop on Flutter app development!",
+        "description": "Whether you're a beginner or an experienced developer, this workshop will equip you with the skills to build sleek and efficient mobile applications.💥 💻 Limited seats available. Register now to secure your spot! 🎟️",
+        "c1name": "Fahad",
+        "c2name": "Jyolsna",
+        "c1no": "7025596146",
+        "c2no": "9778579502",
+        "pricepool": false,
+        "regfee": "100, refundable",
+        "enddate": "2024-03-17",
+        "reglink": "https://reg.yukthi.org/flutter",
+        "reg": "Register Now",
+        "ruleheader": "Guildelines",
+        "rules": {
+          "rule1": "📌 Participation certificates will be provided.",
+          "rule2": "📌 30 KTU activity points",
+          "rule3": "📌 The entry fee of ₹100 will be refunded upon completion. It is treated as a caution deposit.",
+          "rule4": "📌 No prior experience in the field is necessary.",
+          "rule5": "",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
       }
     ],
     [
