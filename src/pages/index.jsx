@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div className="bg-black h-fit">
-      <Title title={'Yukthi'} description={"Solve. Create. Thrive"} route={"/"} />
+      <Title />
 
       <Header id="navbar" />
 

@@ -44,7 +44,7 @@ function EventsDetails(props) {
 
   return (
     <>
-      <Title title={props.title} description={props.description} route={`/events/${props.id}`}/>
+      <Title route={`/events/${props.id}`} />
       <section>
         <Header />
         <div className="h-fit pt-24 p-6 bg-black text-white">
