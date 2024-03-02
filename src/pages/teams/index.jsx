@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin, FaMastodon } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
@@ -10,13 +10,17 @@ import Title from "@/components/Head";
 
 function Team(props) {
   const [index] = useState(0);
-  const [loading, setLoading] = useState({})
+  const [loading, setLoading] = useState({});
 
   const tabs = props.tabs;
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title title={'Teams - Yukthi'} description={"We set the stage for Yukthi '24"} route={'/teams'} />
+      <Title
+        title={"Teams - Yukthi"}
+        description={"We set the stage for Yukthi '24"}
+        route={"/teams"}
+      />
       <Header id="navbar" />
 
       <main>
@@ -54,15 +58,28 @@ function Team(props) {
                       key={member.id}
                       className=" shadow-2xl hover:shadow-main_primary transition-all duration-500 ease-in-out"
                     >
-                      {loading[member.id] !== false ? <div className="w-[300px] h-[300px] flex justify-center items-center" ><div className="spinner"/></div> : null}
+                      {loading[member.id] !== false ? (
+                        <div className="w-[300px] h-[300px] flex justify-center items-center">
+                          <div className="spinner" />
+                        </div>
+                      ) : null}
                       <div>
                         <Image
                           src={member.img}
                           alt={member.name}
                           width={loading[member.id] !== false ? 0 : 300}
                           height={loading[member.id] !== false ? 0 : 300}
-                          onLoad={() => setLoading(prevState => ({...prevState, [member.id]: false}))}
-                          className={`object-cover ${loading[member.id] !== false ? 'w-[0rem] h-[0rem]' : 'w-[20rem] h-[22rem]'}`}
+                          onLoad={() =>
+                            setLoading((prevState) => ({
+                              ...prevState,
+                              [member.id]: false,
+                            }))
+                          }
+                          className={`object-cover ${
+                            loading[member.id] !== false
+                              ? "w-[0rem] h-[0rem]"
+                              : "w-[20rem] h-[22rem]"
+                          }`}
                         />
                       </div>
                       <div className="flex flex-col p-2 bg-black bg-opacity-20 ">
@@ -76,29 +93,51 @@ function Team(props) {
                         </div>
                         <div className="flex justify-end pb-2">
                           <div
-                            className={`flex ${member.github ? 'justify-between w-30' : 'justify-end'} space-x-2`}
-
+                            className={`flex ${
+                              member.github
+                                ? "justify-between w-30"
+                                : "justify-end"
+                            } space-x-2`}
                           >
                             {member.github && (
-                              <Link href={`https://github.com/${member.github}`}>
+                              <Link
+                                href={`https://github.com/${member.github}`}
+                              >
                                 <FaGithub
                                   size="2rem"
                                   className="text-white hover:text-[#CAFA19] transition-all duration-500 ease-in-out"
                                 />
                               </Link>
                             )}
-                            {member.insta && <Link href={`https://instagram.com/${member.insta}`}>
-                              <FaInstagram
-                                size="2rem"
-                                className="text-white hover:text-[#CAFA19] transition-all duration-500 ease-in-out"
-                              />
-                            </Link>}
-                            {member.linkedin && <Link href={`https://linkedin.com/in/${member.linkedin}`}>
-                              <FaLinkedin
-                                size="2rem"
-                                className="text-white hover:text-[#CAFA19] transition-all duration-500 ease-in-out"
-                              />
-                            </Link>}
+                            {member.insta && (
+                              <Link
+                                href={`https://instagram.com/${member.insta}`}
+                              >
+                                <FaInstagram
+                                  size="2rem"
+                                  className="text-white hover:text-[#CAFA19] transition-all duration-500 ease-in-out"
+                                />
+                              </Link>
+                            )}
+                            {member.mastodonurl && (
+                              <Link href={`${member.mastodonurl}`}>
+                                <FaMastodon
+                                  size="2rem"
+                                  className="text-white hover:text-[#CAFA19] transition-all duration-500 ease-in-out"
+                                />
+                              </Link>
+                            )}
+
+                            {member.linkedin && (
+                              <Link
+                                href={`https://linkedin.com/in/${member.linkedin}`}
+                              >
+                                <FaLinkedin
+                                  size="2rem"
+                                  className="text-white hover:text-[#CAFA19] transition-all duration-500 ease-in-out"
+                                />
+                              </Link>
+                            )}
                           </div>
                         </div>
                       </div>
