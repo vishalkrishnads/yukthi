@@ -48,8 +48,8 @@ export default function Title({ route }) {
         images: [
           {
             url: 'https://yukthi.org/seo.png',
-            width: 800,
-            height: 740,
+            width: 1200,
+            height: 630,
             alt: 'Yukthi - Solve.Create.Thrive',
             type: 'image/png',
           }
@@ -58,6 +58,7 @@ export default function Title({ route }) {
       }}
       twitter={{
         cardType: 'summary_large_image',
+        
       }}
     />;
 }
