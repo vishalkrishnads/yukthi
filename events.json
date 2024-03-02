@@ -542,7 +542,41 @@
         }
       }
     ],
-    [],
+    [
+      {
+        "id": "terminus",
+        "title": "Terminus Robotica",
+        "img": "/me/terminus.png",
+        "content": "Get ready to showcase your skills in the ultimate pick and place challenge!💥 ",
+        "description": "The Terminus Robotica competition is here, where your robot's agility and precision will be put to the test.",
+        "c1name": "Hemand",
+        "c2name": "Midhun",
+        "c1no": "9048587665",
+        "c2no": "7510912159",
+        "pricepool": "3k",
+        "regfee": "200",
+        "enddate": "March 14th, 2024",
+        "reglink": "https://reg.yukthi.org/terminusrobo",
+        "reg": "Register Now",
+        "embed": true,
+        "ruleheader": "",
+        "rules": {
+          "rule1": "",
+          "rule2": "",
+          "rule3": "",
+          "rule4": "",
+          "rule5": "",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
+      }
+    ],
     [
       {
         "id": "fora",
@@ -590,7 +624,7 @@
         "c2no": "7736998870",
         "pricepool": false,
         "regfee": "0",
-        "enddate": "March 16th, 2024",
+        "enddate": "March 14th, 2024",
         "reglink": "https://forms.gle/jk2TKNHmKYdo1KKz9",
         "reg": "Register Now",
         "ruleheader": "Guildelines",
