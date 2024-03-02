@@ -16,11 +16,7 @@ function Team(props) {
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title
-        title={"Teams - Yukthi"}
-        description={"We set the stage for Yukthi '24"}
-        route={"/teams"}
-      />
+      <Title route={'/teams'} />
       <Header id="navbar" />
 
       <main>
