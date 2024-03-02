@@ -3,42 +3,42 @@
     {
       "id": "1",
       "title": "Convenor",
-      "sub":"Computer Science",
+      "sub": "Computer Science",
       "name": "Muhammed R",
       "ph": "7025662019"
     },
     {
       "id": "2",
       "title": "Co Convenor",
-      "sub":"Computer Science",
+      "sub": "Computer Science",
       "name": "Joel Johnson",
       "ph": "9061234812"
     },
     {
       "id": "3",
       "title": "Operations Lead",
-      "sub":"Computer Science",
+      "sub": "Computer Science",
       "name": "Muhammed Ziyan Ummalil",
       "ph": "7012829471"
     },
     {
       "id": "4",
       "title": "Design Lead",
-      "sub":"Computer Science",
+      "sub": "Computer Science",
       "name": "Jithin Prakash",
       "ph": "9207193055"
     },
     {
       "id": "5",
       "title": "UI/UX Lead",
-      "sub":"Computer Science",
+      "sub": "Computer Science",
       "name": "Dev Nandan",
       "ph": "9746568406"
     },
     {
       "id": "6",
       "title": "Marketing Lead",
-      "sub":"Computer Science",
+      "sub": "Computer Science",
       "name": "Devadathan DR",
       "ph": "9746568406"
     },
@@ -59,7 +59,7 @@
     {
       "id": "9",
       "title": "Competition Coordinator",
-      "sub": "Electronics & Electrical",
+      "sub": "Electrical & Electronics",
       "name": "Karthik Sankar",
       "ph": "9526358955"
     },
@@ -73,7 +73,7 @@
     {
       "id": "11",
       "title": "Sponsorship Coordinator",
-      "sub":"Computer Science",
+      "sub": "Computer Science",
       "name": "Darshan Kumar",
       "ph": "8547851467"
     },
@@ -142,7 +142,7 @@
     },
     {
       "id": "21",
-      "title": "Elexer",
+      "title": "Elexcer",
       "sub": "Dept. of Electronics Engineering",
       "name": "Neetha Merin Thomas",
       "ph": "9447758348"
