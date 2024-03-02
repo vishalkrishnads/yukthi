@@ -60,7 +60,8 @@
               "id": "l7",
               "name": "Pranav Jerry",
               "post": "Networking Lead",
-              "img": "/teams/l7.jpg"
+              "img": "/teams/l7.jpg",
+              "mastodonurl": "https://fe.disroot.org/@libreinator"
             },
             {
               "id": "l6",
@@ -77,7 +78,7 @@
               "post": "Program Lead",
               "img": "/teams/l8.jpg",
               "insta": "fiction_al",
-              "linkedin":  "anshu-kumar-a40327256"
+              "linkedin": "anshu-kumar-a40327256"
             },
             {
               "id": "l1",
