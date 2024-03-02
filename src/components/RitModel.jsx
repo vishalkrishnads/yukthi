@@ -21,12 +21,12 @@ export default function RitModel() {
     {
       id: 4,
       title: "Workshops",
-      image: "/slider/workshop.avif",
+      image: "/slider/workshops.jpg",
     },
     {
       id: 5,
       title: "Proshows",
-      image: "/slider/proshow.jpeg",
+      image: "/slider/proshow.jpg",
     },
   ];
 
