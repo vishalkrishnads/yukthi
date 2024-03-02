@@ -13,7 +13,7 @@ export default function Faq() {
     },
     {
       question: 'When would the certificates for workshops be awarded?',
-      answer: "Certificates for the workshops conducted during Yukthi'24 are usually issued within 5-7 days after the event."
+      answer: "Certificates for the workshops conducted during Yukthi'24 are usually issued within 1 month after the event."
     },
     {
       question: 'Are the workshops open to non engineering students?',
