@@ -16,7 +16,7 @@ function Team(props) {
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title />
+      <Title route={'/teams'} />
       <Header id="navbar" />
 
       <main>
