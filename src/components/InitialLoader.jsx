@@ -6,7 +6,7 @@ export default function InitialLoader() {
 
   return (
     <div className="loader w-screen h-screen bg-black z-[28]  flex items-center justify-center">
-      <Title title={"Yukthi '24"} description={"Solve. Create. Thrive."} route={router.pathname} />
+      <Title route={router.pathname} />
       <video
         src="/preloader.mp4"
         autoPlay

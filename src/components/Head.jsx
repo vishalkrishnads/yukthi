@@ -23,11 +23,19 @@ export default function Title({ route }) {
 
   const defaultPhrase = {
     title: "Yukthi '24",
-    description: "Solve. Create. Thrive."
+    description: "Solve. Create. Thrive. Yukthi '24 is the annual inter-college tech fest of STIST. Come join the fun."
   }
 
+  const welcomePhrase = {
+    title: 'An event from Yukthi!',
+    description: "We are so excited for you to be a part of Yukthi '24! Click that register now button and we hope to see you there..."
+  }
+  
+  let phrase = defaultPhrase
+  if(route !== undefined) phrase = route.startsWith('/events/') ? welcomePhrase : defaultPhrase
+
   // Check if the route exists in phrases, if not use the default phrase
-  const { title, description } = phrases[route] || defaultPhrase;
+  let { title, description } = phrases[route] || phrase;
 
   return <NextSeo
       title={title}
@@ -53,3 +61,4 @@ export default function Title({ route }) {
       }}
     />;
 }
+
