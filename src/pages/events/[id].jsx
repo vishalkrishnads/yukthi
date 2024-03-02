@@ -44,7 +44,7 @@ function EventsDetails(props) {
 
   return (
     <>
-      <Title meta={props.meta}/>
+      <Title title={props.title} description={props.description} route={`/events/${props.id}`}/>
       <section>
         <Header />
         <div className="h-fit pt-24 p-6 bg-black text-white">
@@ -99,11 +99,16 @@ function EventsDetails(props) {
                     </div>
                   </div>
 
-                  <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
-                    Coordinator Details
+                {props.c1name ? <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
+                  Coordinator Details
+                </h3> :
+                <Link href={'/events'}>
+                  <h3 className="text-white hover:text-main_primary text-[1.5rem] font-sans font-bold mb-2 mt-4">
+                    Browse other events
                   </h3>
+                </Link>}
 
-                  <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
+                  {props.c1name && <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
                     <div className="flex flex-col pr-4">
                       <span>{props.c1name} :</span>
                       {props.c2name != false && <span>{props.c2name} :</span>}
@@ -114,19 +119,19 @@ function EventsDetails(props) {
                           +91 {props.c1number}
                         </span>
                       </Link>
-                      <Link href={`tel:+91${props.c2number}`}>
+                      {props.c2name && <Link href={`tel:+91${props.c2number}`}>
                         <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
                           +91 {props.c2number}
                         </span>
-                      </Link>
+                      </Link>}
                     </div>
-                  </div>
+                  </div>}
                 </div>
 
                 <button
                   className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
                   onClick={() => {
-                    props.reg == "Register Closed" ? null : props.embed ? setPopUp(true) : window.open(props.reglink, '_blank');
+                    props.reg == "Register Now" ? props.embed ? setPopUp(true) : window.open(props.reglink, '_blank') : null;
                   }}
                 >
                   {props.reg}
@@ -210,8 +215,6 @@ export async function getStaticProps(context) {
 
   const post = objectData.posts.flat().find((post) => post.id == id);
 
-  const domain = "https://yukthi.org";
-
   return {
     props: {
       title: post.title,
@@ -243,12 +246,7 @@ export async function getStaticProps(context) {
       rule11: post.rules.rule11,
       rule12: post.rules.rule12,
       rule13: post.rules.rule13,
-      meta: {
-        title: post.title,
-        description: post.description,
-        url: `${domain}/events/${id}`,
-        image: `${domain}/twitter.png`,
-      }
+      route: id
     },
   };
 }

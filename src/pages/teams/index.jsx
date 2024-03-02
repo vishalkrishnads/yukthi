@@ -10,12 +10,13 @@ import Title from "@/components/Head";
 
 function Team(props) {
   const [index] = useState(0);
+  const [loading, setLoading] = useState({})
+
   const tabs = props.tabs;
-  console.log("tabs", tabs);
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title meta={props.meta} />
+      <Title title={'Teams - Yukthi'} description={"We set the stage for Yukthi '24"} route={'/teams'} />
       <Header id="navbar" />
 
       <main>
@@ -53,13 +54,15 @@ function Team(props) {
                       key={member.id}
                       className=" shadow-2xl hover:shadow-main_primary transition-all duration-500 ease-in-out"
                     >
+                      {loading[member.id] !== false ? <div className="w-[300px] h-[300px] flex justify-center items-center" ><div className="spinner"/></div> : null}
                       <div>
                         <Image
                           src={member.img}
                           alt={member.name}
-                          width={300}
-                          height={300}
-                          className="object-cover w-[20rem] h-[22rem]"
+                          width={loading[member.id] !== false ? 0 : 300}
+                          height={loading[member.id] !== false ? 0 : 300}
+                          onLoad={() => setLoading(prevState => ({...prevState, [member.id]: false}))}
+                          className={`object-cover ${loading[member.id] !== false ? 'w-[0rem] h-[0rem]' : 'w-[20rem] h-[22rem]'}`}
                         />
                       </div>
                       <div className="flex flex-col p-2 bg-black bg-opacity-20 ">
@@ -101,7 +104,7 @@ function Team(props) {
                       </div>
                     </div>
                   ))}
-                </div>              
+                </div>
               </div>
             ))}
           </div>
@@ -118,18 +121,6 @@ export async function getStaticProps() {
   const filePath = path.join(process.cwd(), "/teams.json");
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
-
-  const title = 'Teams - Yukthi';
-  const description = "We set the stage for Yukthi '24";
-  const domain = "https://yukthi.org";
-  const url = `${domain}/teams`;
-
-  objectData.meta = {
-    title,
-    description,
-    url,
-    image: `${domain}/twitter.png`,
-  }
 
   return {
     props: objectData,

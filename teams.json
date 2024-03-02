@@ -27,27 +27,77 @@
           ]
         },
         {
+          "name": "Staff",
+          "members": [
+            {
+              "id": "s1",
+              "name": "Archana T",
+              "post": "Faculty in-charge",
+              "img": "/teams/s1.jpg",
+              "insta": "archa.na5825"
+            },
+            {
+              "id": "s2",
+              "name": "Bindu Ann Thomas",
+              "post": "Campus Enbaler",
+              "img": "/teams/s2.jpg",
+              "insta": "binduannthomas"
+            }
+          ]
+        },
+        {
           "name": "Leads",
           "members": [
             {
+              "id": "l9",
+              "name": "Jithin Prakash",
+              "post": "Design Lead",
+              "img": "/teams/l9.jpg",
+              "insta": "j4a_iin",
+              "linkedin": "jithin-prakash-209559248"
+            },
+            {
+              "id": "l7",
+              "name": "Pranav Jerry",
+              "post": "Networking Lead",
+              "img": "/teams/l7.jpg"
+            },
+            {
+              "id": "l6",
+              "name": "Vishal Krishna",
+              "post": "Technical Lead",
+              "img": "/teams/l6.jpg",
+              "insta": "vishalds_",
+              "linkedin": "vishalkrishnads",
+              "github": "vishalkrishnads"
+            },
+            {
+              "id": "l8",
+              "name": "Anshu Jaiswal",
+              "post": "Program Lead",
+              "img": "/teams/l8.jpg",
+              "insta": "fiction_al",
+              "linkedin":  "anshu-kumar-a40327256"
+            },
+            {
               "id": "l1",
-              "name": "Muhammed Ziyan Ummali",
+              "name": "Muhammed Ziyan",
               "post": "Operations Lead",
-              "img": "/teams/l1.jpg",
+              "img": "/teams/l1.png",
               "insta": "muhammed.ziy.an"
             },
             {
               "id": "l2",
               "name": "Abi Krishna S",
-              "post": "Design Lead",
-              "img": "/teams/l2.jpg",
+              "post": "Content Lead",
+              "img": "/teams/l2.png",
               "insta": "abi_krishna_s"
             },
             {
               "id": "l3",
               "name": "Dev Nandan S",
               "post": "UI/UX Lead",
-              "img": "/teams/l3.jpg",
+              "img": "/teams/l3.png",
               "insta": "_nxndxn_"
             },
             {
@@ -61,17 +111,8 @@
               "id": "l5",
               "name": "Jeevan Deepan",
               "post": "Media Lead",
-              "img": "/teams/unknown.png",
+              "img": "/teams/l5.jpg",
               "insta": "jeev4nn"
-            },
-            {
-              "id": "l6",
-              "name": "Vishal Krishna",
-              "post": "Technical Lead",
-              "img": "/teams/l6.jpg",
-              "insta": "vishalds_",
-              "github": "vishalkrishnads",
-              "linkedin":  "vishalkrishnads"
             }
           ]
         },
@@ -79,8 +120,24 @@
           "name": "Coordinators",
           "members": [
             {
+              "id": "c4",
+              "name": "Abhishek",
+              "post": "Ambience Coordinator",
+              "img": "/teams/c4.jpg",
+              "insta": "arkitheaa"
+            },
+            {
+              "id": "c5",
+              "name": "Muhammed Ijas",
+              "post": "Logistics Coordinator",
+              "img": "/teams/c5.jpg",
+              "github": "_ija.z",
+              "insta": "_ija.z",
+              "linkedin": "muhammed-ijas-27544b1b6"
+            },
+            {
               "id": "c1",
-              "name": "Karthik Shankar",
+              "name": "Karthik Sankar",
               "post": "Competition Coordinator",
               "img": "/teams/c1.jpg",
               "insta": "Kya_rthik"
@@ -96,20 +153,14 @@
               "id": "c3",
               "name": "Darshan Kumar",
               "post": "Sponsorship Coordinator",
-              "img": "/teams/c3.jpg",
+              "img": "/teams/c3.png",
               "insta": ".dxrsh."
             },
             {
-              "id": "c4",
-              "name": "Abhishek",
-              "post": "Ambience Coordinator",
-              "img": "/teams/c4.jpg"
-            },
-            {
-              "id": "c5",
+              "id": "c6",
               "name": "Sabal Krishna S",
               "post": "Student Coordinator",
-              "img": "/teams/c5.jpg"
+              "img": "/teams/c6.jpg"
             }
           ]
         },
@@ -122,6 +173,13 @@
               "post": "Finance Manager",
               "img": "/teams/m1.jpg",
               "insta": "s.x.ur.x.bh_n.x.nd.x.n"
+            },
+            {
+              "id": "m2",
+              "name": "Fahad Nazar",
+              "post": "Social Media Manager",
+              "img": "/teams/m2.jpg",
+              "insta": "fx.had._._"
             }
           ]
         }

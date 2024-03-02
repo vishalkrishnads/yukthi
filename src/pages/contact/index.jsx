@@ -20,7 +20,7 @@ export default function Contact(props) {
 
   return (
     <div className="h-fit w-screen bg-black">
-      <Title meta={props.meta} />
+      <Title title={"Contact - Yukthi"} description={"Feel free to contact us"} route={"/contact"} />
       <Header id="Navbar" />
       <main className='pt-[5.5rem] bg-[url("/contact.png")] h-full'>
         <div className="flex flex-col text-center items-center justify-center h-full gap-2">
@@ -67,17 +67,6 @@ export async function getStaticProps() {
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
 
-  const title = 'Contact - Yukthi';
-  const description = 'Feel free to contact us';
-  const domain = "https://yukthi.org";
-  const url = `${domain}/contact`;
-
-  objectData.meta = {
-    title,
-    description,
-    url,
-    image: `${domain}/twitter.png`,
-  }
   return {
     props: objectData,
   };
