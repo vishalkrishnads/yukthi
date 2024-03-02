@@ -32,7 +32,7 @@ export default function Events({ posts, names }) {
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title title={'Events - Yukthi'} description={"See what's happening at Yukthi '24"} route={'/events'} />
+      <Title />
       <Header id="navbar" />
       {/* <progress max="100" value="0"></progress> */}
 

@@ -25,7 +25,7 @@ function FormPage() {
 
   return (
     <div className="signup relative">
-      <Title title={"SignUp - Yukthi"} description={"Sign Up to view your registrations"} route={"/signup"} />
+      <Title />
       <Header />
 
       <form onSubmit={handleSubmit} className="h-fit  px-4 pb-8 pt-[6.5rem] font-chakra text-xl flex flex-col gap-6 items-center justify-center">

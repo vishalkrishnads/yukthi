@@ -7,7 +7,7 @@ import Title from "@/components/Head";
 function Soon() {
     return (
         <div className="signup relative">
-            <Title title={'Coming soon - Yukthi'} description={"Get ready to solve, create & thrive."} route={"/soon"} />
+            <Title />
             <Header />
             <main className="h-screen w-screen">
                 <div className="h-screen w-screen font-clash flex gap-4 flex-col items-center justify-center">
