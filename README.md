@@ -1,3 +1,7 @@
+# Yukthi '24 Official website
+
+See https://www.yukthi.org for the live website.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,7 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev -
+npm run dev
 # or
 yarn dev
 # or
