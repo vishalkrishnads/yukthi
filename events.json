@@ -613,7 +613,7 @@
     [
       {
         "id": "fora",
-        "title": "Fora - Paper Presentation",
+        "title": "Fora '24 - Paper Presentation",
         "img": "/eee/fora.jpg",
         "content": "A Mega Platform for students to exhibit their Research Ideas, which enables every participants to get Professional feedback which shall further enhance their skills and knowledge.🤓🤓🤓",
         "description": "The Event will host paper presentations on various topics relevant to Control System, Power Electronics, Electrical Machines, Power System, Biomedical Engineering, Artificial lntelligence, Electric Vehicle",
@@ -633,7 +633,7 @@
           "rule3": "Presentation certificates will be provided only for not more than 2 authors for each paper, otherwise extra charge of 75 Rs per author should be remitted for availing participation certificates",
           "rule4": "The participants must carry a valid ID proof preferably college ID card.",
           "rule5": "Participant must report to the venue 30 min before the event",
-          "rule6": "All registered participants will be provided with E-Certificates",
+          "rule6": "All registered participants will be provided with printed certificates",
           "rule7": "Best papers will be awarded. (Ref:https://drive.google.com/drive/folders/1vN1fT5BqwKWFKjAVX_pQHmLyEHMilIpp?usp=drive_link)",
           "rule8": "",
           "rule9": "",
@@ -946,7 +946,7 @@
         "pricepool": false,
         "regfee": "0",
         "enddate": "March 16",
-        "reglink": "https://reg.yukthi.org/flutter",
+        "reglink": "https://docs.google.com/forms/d/e/1FAIpQLSelKhhPuCBXKXIPamqUxDXHX520Db2WsJviVlP1ywyxdhF3Og/viewform",
         "reg": "Register Now",
         "ruleheader": "Guildelines",
         "rules": {
