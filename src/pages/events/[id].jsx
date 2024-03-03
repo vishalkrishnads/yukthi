@@ -20,17 +20,17 @@ function EventsDetails(props) {
     gsap.fromTo(
       subtitle.current,
       { opacity: 0, y: 10 },
-      { opacity: 1, y: 0, duration: 1, delay: 0.2 }
+      { opacity: 1, y: 0, duration: 1, delay: 0.2 },
     );
     gsap.fromTo(
       title.current,
       { opacity: 0, y: 5 },
-      { opacity: 1, y: 0, duration: 1, delay: 0.7 }
+      { opacity: 1, y: 0, duration: 1, delay: 0.7 },
     );
     gsap.fromTo(
       card.current,
       { opacity: 0, scale: 0.95 },
-      { opacity: 1, scale: 1, duration: 1, delay: 0.7, ease: "back.out(1.7)" }
+      { opacity: 1, scale: 1, duration: 1, delay: 0.7, ease: "back.out(1.7)" },
     );
   }, []);
 
@@ -88,7 +88,7 @@ function EventsDetails(props) {
                     <div className="flex flex-col pr-4">
                       {props.pricepool != false && <span>Prize Pool :</span>}
                       <span>Reg Fee :</span>
-                      <span>End Date :</span>
+                      <span>Reg Deadline :</span>
                     </div>
                     <div className="flex flex-col text-white font-bold">
                       {props.pricepool != false && (
@@ -99,39 +99,50 @@ function EventsDetails(props) {
                     </div>
                   </div>
 
-                {props.c1name ? <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
-                  Coordinator Details
-                </h3> :
-                <Link href={'/events'}>
-                  <h3 className="text-white hover:text-main_primary text-[1.5rem] font-sans font-bold mb-2 mt-4">
-                    Browse other events
-                  </h3>
-                </Link>}
+                  {props.c1name ? (
+                    <h3 className="text-white text-[1.5rem] font-sans font-bold mb-2 mt-4">
+                      Coordinator Details
+                    </h3>
+                  ) : (
+                    <Link href={"/events"}>
+                      <h3 className="text-white hover:text-main_primary text-[1.5rem] font-sans font-bold mb-2 mt-4">
+                        Browse other events
+                      </h3>
+                    </Link>
+                  )}
 
-                  {props.c1name && <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
-                    <div className="flex flex-col pr-4">
-                      <span>{props.c1name} :</span>
-                      {props.c2name != false && <span>{props.c2name} :</span>}
+                  {props.c1name && (
+                    <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
+                      <div className="flex flex-col pr-4">
+                        <span>{props.c1name} :</span>
+                        {props.c2name != false && <span>{props.c2name} :</span>}
+                      </div>
+                      <div className="flex flex-col text-white font-bold">
+                        <Link href={`tel:+91${props.c1number}`}>
+                          <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
+                            +91 {props.c1number}
+                          </span>
+                        </Link>
+                        {props.c2name && (
+                          <Link href={`tel:+91${props.c2number}`}>
+                            <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
+                              +91 {props.c2number}
+                            </span>
+                          </Link>
+                        )}
+                      </div>
                     </div>
-                    <div className="flex flex-col text-white font-bold">
-                      <Link href={`tel:+91${props.c1number}`}>
-                        <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
-                          +91 {props.c1number}
-                        </span>
-                      </Link>
-                      {props.c2name && <Link href={`tel:+91${props.c2number}`}>
-                        <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
-                          +91 {props.c2number}
-                        </span>
-                      </Link>}
-                    </div>
-                  </div>}
+                  )}
                 </div>
 
                 <button
                   className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
                   onClick={() => {
-                    props.reg == "Register Now" ? props.embed ? setPopUp(true) : window.open(props.reglink, '_blank') : null;
+                    props.reg == "Register Now"
+                      ? props.embed
+                        ? setPopUp(true)
+                        : window.open(props.reglink, "_blank")
+                      : null;
                   }}
                 >
                   {props.reg}
@@ -246,7 +257,7 @@ export async function getStaticProps(context) {
       rule11: post.rules.rule11,
       rule12: post.rules.rule12,
       rule13: post.rules.rule13,
-      route: id
+      route: id,
     },
   };
 }

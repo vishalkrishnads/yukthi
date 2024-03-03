@@ -27,7 +27,7 @@ export default function About() {
 
           ease: "power4.eae-InOut",
         },
-      }
+      },
     );
   }, []);
 
@@ -51,7 +51,19 @@ export default function About() {
           ref={aboutyukthi}
           className="text-base font-medium text-white xl:text-xl"
         >
-          <b>YUKTHI'24</b> is the upcoming inaugural tech fest conducted by STIST. It is an exciting adventure created to inspire the creativity and passion of tech enthusiasts in India. Yukthi is organised by the Mulearn and FOSS United College Chapters, inviting students from all over the country to join in a celebration of technology, creativity, and teamwork. The <b>three-day</b> event encompasses activities such as hackathons, tech talks, workshops and various other competitions to enrich the overall learning experience. Yukthi offers its diverse attendees the option to choose these events based on their own individual interests and learning styles. Yukthi is one of its kind as it promises to leave a lasting impact on the individual and open new pathways for students to propel their careers. Come lets solve, create and thrive together!
+          <b>YUKTHI'24</b> is the upcoming inaugural tech fest conducted by
+          STIST. It is an exciting adventure created to inspire the creativity
+          and passion of tech enthusiasts in India. Yukthi is organised by the
+          Mulearn and FOSS United College Chapters, inviting students from all
+          over the country to join in a celebration of technology, creativity,
+          and teamwork. The <b>three-day</b> event encompasses activities such
+          as hackathons, tech talks, workshops and various other competitions to
+          enrich the overall learning experience. Yukthi offers its diverse
+          attendees the option to choose these events based on their own
+          individual interests and learning styles. Yukthi is one of its kind as
+          it promises to leave a lasting impact on the individual and open new
+          pathways for students to propel their careers. Come lets solve, create
+          and thrive together!
         </span>
       </div>
       <div className="absolute font-clash font-bold text-white">
@@ -64,7 +76,12 @@ export default function About() {
         className="flex flex-col mt-8 lg:flex-row items-center gap-8 py-8"
       >
         <p className="text-white text-base xl:text-xl font-chakra font-medium">
-          Located in the heart of trivandrum, a stones throw away from the technopark campus, St.Thomas Institute Of Science and Technology is home to numerous students pursuing their bachelors and masters in engineering. Established in 2010 by the Mar Thoma Church Educational Society, it takes pride in being a vibrant hub where innovation meets education. The college is NBA accredited as well as approved by AICTE.
+          Located in the heart of Trivandrum, a stones throw away from the
+          technopark campus, St.Thomas Institute for Science and Technology is
+          home to numerous students pursuing their bachelors and masters in
+          engineering. Established in 2010 by the Mar Thoma Church Educational
+          Society, it takes pride in being a vibrant hub where innovation meets
+          education. The college is NBA accredited as well as approved by AICTE.
         </p>
 
         <video
