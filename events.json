@@ -385,8 +385,7 @@
         "pricepool": false,
         "regfee": "100",
         "enddate": "March 15th, 2024",
-        "reglink": "https://docs.google.com/forms/d/e/1FAIpQLSeLDGKur7k4EQxdoWyZXDIolrSbOkJL51vhO6rpDJ5e9YkW0Q/viewform?embedded=true",
-        "embed": true,
+        "reglink": "https://docs.google.com/forms/d/e/1FAIpQLSeLDGKur7k4EQxdoWyZXDIolrSbOkJL51vhO6rpDJ5e9YkW0Q/viewform",
         "reg": "Register Now",
         "ruleheader": "Rules and regulations",
         "rules": {
