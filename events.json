@@ -615,7 +615,7 @@
         "id": "fora",
         "title": "Fora - Paper Presentation",
         "img": "/eee/fora.jpg",
-        "content": "A Mega Platform for students as well as to exhibit their Research Ideas, which enables every participats to get Professional feedback which shall further enhance their skills and knowledge.🤓🤓🤓",
+        "content": "A Mega Platform for students to exhibit their Research Ideas, which enables every participants to get Professional feedback which shall further enhance their skills and knowledge.🤓🤓🤓",
         "description": "The Event will host paper presentations on various topics relevant to Control System, Power Electronics, Electrical Machines, Power System, Biomedical Engineering, Artificial lntelligence, Electric Vehicle",
         "c1name": "Greeshith",
         "c2name": "Jibin",
@@ -628,7 +628,7 @@
         "reg": "Register Now",
         "ruleheader": "Guidelines for participation",
         "rules": {
-          "rule1": "Number of co-authors restricted to 2",
+          "rule1": "Number of authors must not exceed 3 per paper",
           "rule2": "Rupees 150 must be paid for completing the registration along with google form.",
           "rule3": "Presentation certificates will be provided only for not more than 2 authors for each paper, otherwise extra charge of 75 Rs per author should be remitted for availing participation certificates",
           "rule4": "The participants must carry a valid ID proof preferably college ID card.",
