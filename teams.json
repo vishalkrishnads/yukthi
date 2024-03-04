@@ -114,6 +114,13 @@
               "post": "Media Lead",
               "img": "/teams/l5.jpg",
               "insta": "jeev4nn"
+            },
+            {
+              "id": "c3",
+              "name": "Darshan Kumar",
+              "post": "Sponsorship Lead",
+              "img": "/teams/c3.png",
+              "insta": ".dxrsh."
             }
           ]
         },
@@ -149,13 +156,6 @@
               "post": "Workshop Coordinator",
               "img": "/teams/c2.jpg",
               "insta": "aryancholakkal"
-            },
-            {
-              "id": "c3",
-              "name": "Darshan Kumar",
-              "post": "Sponsorship Coordinator",
-              "img": "/teams/c3.png",
-              "insta": ".dxrsh."
             },
             {
               "id": "c6",
