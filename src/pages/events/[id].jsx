@@ -87,8 +87,8 @@ function EventsDetails(props) {
                   <div className="grid grid-cols-2 pt-6 text-[1.1rem] tracking-wide w-fit font-medium">
                     <div className="flex flex-col pr-4">
                       {props.pricepool != false && <span>Prize Pool :</span>}
-                      <span>Reg Fee :</span>
-                      <span>Reg Deadline :</span>
+                      <span>Reg Fee:</span>
+                      <span>Reg Deadline:</span>
                     </div>
                     <div className="flex flex-col text-white font-bold">
                       {props.pricepool != false && (
@@ -114,8 +114,8 @@ function EventsDetails(props) {
                   {props.c1name && (
                     <div className="flex gap-2 text-[1.1rem] tracking-wide w-fit font-medium">
                       <div className="flex flex-col pr-4">
-                        <span>{props.c1name} :</span>
-                        {props.c2name != false && <span>{props.c2name} :</span>}
+                        <span>{props.c1name}:</span>
+                        {props.c2name != false && <span>{props.c2name}:</span>}
                       </div>
                       <div className="flex flex-col text-white font-bold">
                         <Link href={`tel:+91${props.c1number}`}>
