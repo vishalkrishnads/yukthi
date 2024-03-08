@@ -1,25 +1,38 @@
 {
-    "roles": [
+  "roles": [
+    {
+      "name": "Title Sponsors",
+      "sponsors": [
         {
-          "name": "Title Sponsors",
-          "sponsors": [
-            {
-              "id": "t1",
-              "name": "Unibic Foods India",
-              "post": "Title Sponsor",
-              "img": "/sponsors/t1.png",
-              "website": "https://www.unibicfoods.com/",
-              "linkedin": "unibic-biscuits-india-pvt-ltd"
-            },
-            {
-              "id": "t2",
-              "name": "UniArch Global",
-              "post": "Associate Title Sponsor",
-              "img": "/sponsors/t2.png",
-              "website": "https://www.uniarch.com/",
-              "linkedin": "uniarch-global"
-            }
-          ]
+          "id": "t1",
+          "name": "Unibic Foods India",
+          "post": "Title Sponsor",
+          "img": "/sponsors/t1.png",
+          "website": "https://www.unibicfoods.com/",
+          "linkedin": "unibic-biscuits-india-pvt-ltd"
+        },
+        {
+          "id": "t2",
+          "name": "UniArch Global",
+          "post": "Associate Title Sponsor",
+          "img": "/sponsors/t2.png",
+          "website": "https://www.uniarch.com/",
+          "linkedin": "uniarch-global"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Event Sponsors",
+      "sponsors": [
+        {
+          "id": "webhunt",
+          "name": "Scalgo Technologies",
+          "post": "Web Hunt Sponsor",
+          "img": "/sponsors/scalgo.png",
+          "website": "https://www.scalgo.net/",
+          "linkedin": "scalgotech"
+        }
+      ]
+    }
+  ]
 }
