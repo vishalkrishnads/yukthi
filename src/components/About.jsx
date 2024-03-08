@@ -76,7 +76,7 @@ export default function About() {
         className="flex flex-col mt-8 lg:flex-row items-center gap-8 py-8"
       >
         <p className="text-white text-base xl:text-xl font-chakra font-medium">
-          Located in the heart of Trivandrum, a stones throw away from the
+          Located in the heart of Trivandrum, a stone's throw away from the
           technopark campus, St.Thomas Institute for Science and Technology is
           home to numerous students pursuing their bachelors and masters in
           engineering. Established in 2010 by the Mar Thoma Church Educational
