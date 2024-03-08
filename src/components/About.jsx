@@ -27,7 +27,7 @@ export default function About() {
 
           ease: "power4.eae-InOut",
         },
-      },
+      }
     );
   }, []);
 
@@ -85,13 +85,15 @@ export default function About() {
         </p>
 
         <video
-          src="/about.mp4"
           autoPlay
           loop
           muted
           playsInline
           className="abvideo w-[22rem] h-[20rem] md:w-[24rem] xl:w-[28rem] xl:h-[18rem] object-cover rounded-2xl border border-gray/50"
-        ></video>
+        >
+          <source src="/about.webm" type="video/webm" />
+          <source src="/about.mp4" type="video/mp4" />
+        </video>
       </div>
     </div>
   );
