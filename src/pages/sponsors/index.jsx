@@ -8,12 +8,12 @@ import fsPromises from "fs/promises";
 import path from "path";
 import Title from "@/components/Head";
 
-function Team(props) {
+function Sponsor(props) {
   const [loading, setLoading] = useState({});
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title route={"/teams"} />
+      <Title route={"/sponsors"} />
       <Header id="navbar" />
 
       <main>
@@ -125,7 +125,7 @@ function Team(props) {
   );
 }
 
-export default Team;
+export default Sponsor;
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), "/sponsors.json");
