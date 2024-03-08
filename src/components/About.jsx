@@ -54,10 +54,10 @@ export default function About() {
           <b>YUKTHI'24</b> is the upcoming inaugural tech fest conducted by
           STIST. It is an exciting adventure created to inspire the creativity
           and passion of tech enthusiasts in India. Yukthi is organised by the
-          Mulearn and FOSS United College Chapters, inviting students from all
-          over the country to join in a celebration of technology, creativity,
-          and teamwork. The <b>three-day</b> event encompasses activities such
-          as hackathons, tech talks, workshops and various other competitions to
+          Mulearn and FOSS Club chapters, inviting students from all over the
+          country to join in a celebration of technology, creativity, and
+          teamwork. The <b>three-day</b> event encompasses activities such as
+          hackathons, tech talks, workshops and various other competitions to
           enrich the overall learning experience. Yukthi offers its diverse
           attendees the option to choose these events based on their own
           individual interests and learning styles. Yukthi is one of its kind as
@@ -76,7 +76,7 @@ export default function About() {
         className="flex flex-col mt-8 lg:flex-row items-center gap-8 py-8"
       >
         <p className="text-white text-base xl:text-xl font-chakra font-medium">
-          Located in the heart of Trivandrum, a stones throw away from the
+          Located in the heart of Trivandrum, a stone's throw away from the
           technopark campus, St.Thomas Institute for Science and Technology is
           home to numerous students pursuing their bachelors and masters in
           engineering. Established in 2010 by the Mar Thoma Church Educational
