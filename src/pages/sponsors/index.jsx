@@ -26,11 +26,11 @@ function Sponsor(props) {
               objectFit: "contain",
             }}
           />
-          <div className="h-[15rem] z-50 md:h-[20rem] text-white font-clash tracking-wide font-black flex flex-col items-center justify-center">
-            <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem]">
+          <div className="h-[15rem] z-10 md:h-[20rem] text-white font-clash tracking-wide font-black flex flex-col items-center justify-center">
+            <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem] z-10">
               YUKTHI '24
             </span>
-            <span className="text-[2.5rem] tracking-wider">SPONSORS</span>
+            <span className="text-[2.5rem] tracking-wider z-10">SPONSORS</span>
           </div>
         </div>
         <div className="text-[.8rem] md:text-[1rem] p-8 font-semibold font-chakra flex gap-4 md:gap-12 items-center justify-center text-white" />
