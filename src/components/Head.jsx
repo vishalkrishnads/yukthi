@@ -11,6 +11,10 @@ export default function Title({ route }) {
       title: 'Events - Yukthi',
       description: "See what's happening at Yukthi '24"
     },
+    '/sponsors': {
+      title: 'Sponsors - Yukthi',
+      description: "Sponsors from all over the country make Yukthi possible! See who's sponoring us."
+    },
     '/teams': {
       title: 'Teams - Yukthi',
       description: "Meet the team behind Yukthi '24"
@@ -58,7 +62,6 @@ export default function Title({ route }) {
       }}
       twitter={{
         cardType: 'summary_large_image',
-        
       }}
     />;
 }
