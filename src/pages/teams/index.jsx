@@ -16,17 +16,27 @@ function Team(props) {
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title route={'/teams'} />
+      <Title route={"/teams"} />
       <Header id="navbar" />
 
       <main>
-        <div className='h-[15rem] z-20 md:h-[20rem] bg-[url("/banner.png")] bg-contain text-white font-clash tracking-wide font-black flex flex-col items-center justify-center'>
-          <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem]">
-            YUKTHI '24
-          </span>
-          <span className="text-[2.5rem] tracking-wider">TEAM</span>
-        </div>
+        <div className="relative w-screen h-full">
+          <Image
+            alt="Banner"
+            src={"/banner.png"}
+            fill
+            style={{
+              objectFit: "contain",
+            }}
+          />
 
+          <div className="h-[15rem] z-20 md:h-[20rem] text-white font-clash tracking-wide font-black flex flex-col items-center justify-center">
+            <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem] z-20">
+              YUKTHI '24
+            </span>
+            <span className="text-[2.5rem] tracking-wider z-20">TEAM</span>
+          </div>
+        </div>
         <div className="text-[.8rem] md:text-[1rem] p-8 font-semibold font-chakra flex gap-4 md:gap-12 items-center justify-center text-white">
           {/* {tabs.map((tab, i) => (
             <span
@@ -39,7 +49,6 @@ function Team(props) {
             </span>
           ))} */}
         </div>
-
         <div className="w-full h-fit pb-10 flex justify-center">
           <div className="flex flex-col gap-10 px-4 lg:px-[6rem] md:pt-6 ">
             {tabs[index].sections.map((section) => (

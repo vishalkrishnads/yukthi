@@ -11,7 +11,7 @@ import Title from "@/components/Head";
 
 export default function Events({ posts, names }) {
   const [index, setIndex] = useState(0);
-  const [loading, setLoading] = useState({})
+  const [loading, setLoading] = useState({});
   const individualPosts = posts[index];
   const animate = useRef(null);
 
@@ -32,18 +32,27 @@ export default function Events({ posts, names }) {
 
   return (
     <div className="h-fit w-screen bg-soothing_black">
-      <Title route={'/events'} />
+      <Title route={"/events"} />
       <Header id="navbar" />
       {/* <progress max="100" value="0"></progress> */}
 
       <main>
-        <div className='h-[5rem] md:h-[20rem] bg-[url("/banner.png")] bg-contain text-white font-clash tracking-wide font-black flex flex-col items-center justify-center'>
-          <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem]">
-            YUKTHI '24
-          </span>
-          <span className="text-[2.5rem] tracking-wider">EVENTS</span>
+        <div className="relative w-screen h-full">
+          <Image
+            alt="Banner"
+            src={"/banner.png"}
+            fill
+            style={{
+              objectFit: "contain",
+            }}
+          />
+          <div className="h-[5rem] md:h-[20rem] text-white font-clash tracking-wide font-black flex flex-col items-center justify-center">
+            <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem] z-10">
+              YUKTHI '24
+            </span>
+            <span className="text-[2.5rem] tracking-wider z-10">EVENTS</span>
+          </div>
         </div>
-
         <div className="text-[1rem] p-8 font-semibold font-chakra flex flex-wrap gap-4 md:gap-12 justify-center text-white">
           {names.map((name, i) => (
             <span
@@ -59,25 +68,33 @@ export default function Events({ posts, names }) {
 
         <div className="flex flex-wrap justify-center gap-8 p-6">
           {individualPosts.length > 0 ? (
-            individualPosts.map((post) => {              
-
-              return <div
-                ref={animate}
-                className="relative flex justify-center items-center w-[21rem] h-[20rem] hover:scale-105 rounded-md overflow-hidden hover:shadow-lg hover:shadow-main_primary/80 transition-all duration-500 ease-in-out"
-                key={post.id}
-              >
-                {loading[post.id] !== false ? <div className="spinner" /> : null}
-                <Link href={`/events/${post.id}`}>
-                  <Image
-                    src={post.img}
-                    width={loading[post.id] !== false ? 0 : 500}
-                    height={loading[post.id] !== false ? 0 : 500}
-                    onLoad={() => setLoading(prevState => ({...prevState, [post.id]: false}))}
-                    alt={post.title}
-                    className="cursor-pointer object-fill transform transition-all duration-500 ease-in-out"
-                  />
-                </Link>
-              </div>
+            individualPosts.map((post) => {
+              return (
+                <div
+                  ref={animate}
+                  className="relative flex justify-center items-center w-[21rem] h-[20rem] hover:scale-105 rounded-md overflow-hidden hover:shadow-lg hover:shadow-main_primary/80 transition-all duration-500 ease-in-out"
+                  key={post.id}
+                >
+                  {loading[post.id] !== false ? (
+                    <div className="spinner" />
+                  ) : null}
+                  <Link href={`/events/${post.id}`}>
+                    <Image
+                      src={post.img}
+                      width={loading[post.id] !== false ? 0 : 500}
+                      height={loading[post.id] !== false ? 0 : 500}
+                      onLoad={() =>
+                        setLoading((prevState) => ({
+                          ...prevState,
+                          [post.id]: false,
+                        }))
+                      }
+                      alt={post.title}
+                      className="cursor-pointer object-fill transform transition-all duration-500 ease-in-out"
+                    />
+                  </Link>
+                </div>
+              );
             })
           ) : (
             <div className="text-white font-semibold font-chakra text-2xl py-8">
