@@ -1,0 +1,25 @@
+{
+    "roles": [
+        {
+          "name": "Title Sponsors",
+          "sponsors": [
+            {
+              "id": "t1",
+              "name": "Unibic Foods India",
+              "post": "Title Sponsor",
+              "img": "/sponsors/t1.png",
+              "website": "https://www.unibicfoods.com/",
+              "linkedin": "unibic-biscuits-india-pvt-ltd"
+            },
+            {
+              "id": "t2",
+              "name": "UniArch Global",
+              "post": "Associate Title Sponsor",
+              "img": "/sponsors/t2.png",
+              "website": "https://www.uniarch.com/",
+              "linkedin": "uniarch-global"
+            }
+          ]
+        }
+    ]
+}
