@@ -44,6 +44,10 @@ export default function Header() {
       action: '/events'
     },
     {
+      label: 'Sponsors',
+      action: '/sponsors'
+    },
+    {
       label: 'About',
       action: '/#about'
     },
