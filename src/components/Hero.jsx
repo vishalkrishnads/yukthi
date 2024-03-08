@@ -43,13 +43,15 @@ function Hero() {
     <div className="hero relative xl:hidden py-8 h-fit flex flex-col uppercase justify-center">
       <video
         ref={render}
-        src="/mobile.mp4"
         loop
         autoPlay
         playsInline
         muted
         className="absolute top-0 left-0 w-full h-full object-cover bg-slate-300 opacity-50"
-      ></video>
+      >
+        <source src="/mobile.webm" type="video/webm" />
+        <source src="/mobile.mp4" type="video/mp4" />
+      </video>
 
       <div className="text-white flex flex-col pt-[8rem] uppercase font-extrabold md:ml-[1rem] lg:ml-[2rem] px-5 ">
         <h1 ref={title} className="font-chakra sm:text-2xl opacity-0">

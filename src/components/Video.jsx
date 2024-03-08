@@ -27,20 +27,23 @@ function Video() {
       {
         translateY: -300,
       },
-      0
+      0,
     );
     tl.to(
       videoRef.current,
       {
         filter: "sepla(50%)",
       },
-      0
+      0,
     );
   }, []);
 
   return (
     <div ref={triggerRef} className="video-section hidden xl:block">
-      <video ref={videoRef} src="/desktop.mp4" autoPlay playsInline loop muted></video>
+      <video ref={videoRef} autoPlay playsInline loop muted>
+        <source src="/desktop.webm" type="video/webm" />
+        <source src="/desktop.mp4" type="video/mp4" />
+      </video>
       <div className="video-copy">
         <h1 ref={textRef} className="vidYukthi font-bebas">
           YUKTHI
