@@ -31,6 +31,14 @@
           "img": "/sponsors/scalgo.png",
           "website": "https://www.scalgo.net/",
           "linkedin": "scalgotech"
+        },
+        {
+          "id": "fossunited",
+          "name": "FOSS United",
+          "post": "FOSS Talks sponsor, SegFault swags",
+          "img": "/sponsors/fossunited.svg",
+          "website": "https://fossunited.org/",
+          "linkedin": "fossunited"
         }
       ]
     }
