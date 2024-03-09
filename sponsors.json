@@ -1,0 +1,59 @@
+{
+  "roles": [
+    {
+      "name": "Title Sponsors",
+      "sponsors": [
+        {
+          "id": "t1",
+          "name": "Unibic Foods India",
+          "post": "Title Sponsor",
+          "img": "/sponsors/t1.png",
+          "website": "https://www.unibicfoods.com/",
+          "linkedin": "unibic-biscuits-india-pvt-ltd"
+        },
+        {
+          "id": "t2",
+          "name": "UniArch Global",
+          "post": "Associate Title Sponsor",
+          "img": "/sponsors/t2.png",
+          "website": "https://www.uniarch.com/",
+          "linkedin": "uniarch-global"
+        }
+      ]
+    },
+    {
+      "name": "Partners",
+      "sponsors": [
+        {
+          "id": "webhunt",
+          "name": "Veranda RACE",
+          "post": "Learning Partner",
+          "img": "/sponsors/vr.png",
+          "website": "https://raceinstitute.in/",
+          "linkedin": "veranda-race"
+        }
+      ]
+    },
+    {
+      "name": "Event Sponsors",
+      "sponsors": [
+        {
+          "id": "webhunt",
+          "name": "Scalgo Technologies",
+          "post": "Web Hunt Sponsor",
+          "img": "/sponsors/scalgo.png",
+          "website": "https://www.scalgo.net/",
+          "linkedin": "scalgotech"
+        },
+        {
+          "id": "fossunited",
+          "name": "FOSS United",
+          "post": "FOSS Talks sponsor, SegFault swags",
+          "img": "/sponsors/fossunited.svg",
+          "website": "https://fossunited.org/",
+          "linkedin": "fossunited"
+        }
+      ]
+    }
+  ]
+}
