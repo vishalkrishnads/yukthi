@@ -22,6 +22,19 @@
       ]
     },
     {
+      "name": "Partners",
+      "sponsors": [
+        {
+          "id": "webhunt",
+          "name": "Veranda RACE",
+          "post": "Learning Partner",
+          "img": "/sponsors/vr.png",
+          "website": "https://raceinstitute.in/",
+          "linkedin": "veranda-race"
+        }
+      ]
+    },
+    {
       "name": "Event Sponsors",
       "sponsors": [
         {
