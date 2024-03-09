@@ -88,6 +88,9 @@ function EventsDetails(props) {
                     <div className="flex flex-col pr-4">
                       {props.pricepool != false && <span>Prize Pool :</span>}
                       <span>Reg Fee:</span>
+                      {props.deposit == null ? null : (
+                        <span>Caution deposit:</span>
+                      )}
                       <span>Date:</span>
                       <span>Mode:</span>
                     </div>
@@ -96,6 +99,9 @@ function EventsDetails(props) {
                         <span className="font-normal"> ₹{props.pricepool}</span>
                       )}
                       <span className="font-normal"> ₹{props.regfee}</span>
+                      {props.deposit == null ? null : (
+                        <span className="font-normal">₹{props.deposit}</span>
+                      )}
                       <span className="font-normal"> {props.date}</span>
                       <span className="font-normal"> {props.mode}</span>
                     </div>
@@ -239,6 +245,8 @@ export async function getStaticProps(context) {
       c2name: post.c2name,
       c2number: post.c2no,
       regfee: post.regfee,
+      deposit: post.deposit,
+      mode: post.mode,
       pricepool: post.pricepool,
       date: post.date,
       register: post.reg,
