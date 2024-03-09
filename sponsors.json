@@ -4,6 +4,14 @@
       "name": "Partners",
       "sponsors": [
         {
+          "id": "mulearn",
+          "name": "µLearn",
+          "post": "Yukthi Partner",
+          "img": "/sponsors/mulearn.png",
+          "website": "https://mulearn.org/",
+          "linkedin": "gtechmulearn"
+        },
+        {
           "id": "t1",
           "name": "Unibic Foods India",
           "post": "Cookie Partner",
