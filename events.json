@@ -536,9 +536,9 @@
         "reglink": "https://docs.google.com/forms/d/e/1FAIpQLSfu7FqJTc-eksIUrLXStNLFEyTMdOPARg3-1zqC-LbG0J_i6g/viewform?embedded=true",
         "embed": true,
         "reg": "Register Now",
-        "ruleheader": "",
+        "ruleheader": "RULES",
         "rules": {
-          "rule1": "",
+          "rule1": "The event is open to individuals, not teams",
           "rule2": "",
           "rule3": "",
           "rule4": "",

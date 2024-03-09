@@ -1,12 +1,12 @@
 {
   "roles": [
     {
-      "name": "Title Sponsors",
+      "name": "Partners",
       "sponsors": [
         {
           "id": "t1",
           "name": "Unibic Foods India",
-          "post": "Title Sponsor",
+          "post": "Cookie Partner",
           "img": "/sponsors/t1.png",
           "website": "https://www.unibicfoods.com/",
           "linkedin": "unibic-biscuits-india-pvt-ltd"
@@ -14,18 +14,13 @@
         {
           "id": "t2",
           "name": "UniArch Global",
-          "post": "Associate Title Sponsor",
+          "post": "Sponsor",
           "img": "/sponsors/t2.png",
           "website": "https://www.uniarch.com/",
           "linkedin": "uniarch-global"
-        }
-      ]
-    },
-    {
-      "name": "Partners",
-      "sponsors": [
+        },
         {
-          "id": "webhunt",
+          "id": "vr",
           "name": "Veranda RACE",
           "post": "Learning Partner",
           "img": "/sponsors/vr.png",
