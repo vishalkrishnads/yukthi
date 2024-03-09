@@ -245,7 +245,7 @@ export async function getStaticProps(context) {
       c2name: post.c2name,
       c2number: post.c2no,
       regfee: post.regfee,
-      deposit: post.deposit,
+      deposit: "deposit" in post ? post.deposit : null,
       mode: post.mode,
       pricepool: post.pricepool,
       date: post.date,
