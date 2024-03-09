@@ -20,17 +20,17 @@ function EventsDetails(props) {
     gsap.fromTo(
       subtitle.current,
       { opacity: 0, y: 10 },
-      { opacity: 1, y: 0, duration: 1, delay: 0.2 },
+      { opacity: 1, y: 0, duration: 1, delay: 0.2 }
     );
     gsap.fromTo(
       title.current,
       { opacity: 0, y: 5 },
-      { opacity: 1, y: 0, duration: 1, delay: 0.7 },
+      { opacity: 1, y: 0, duration: 1, delay: 0.7 }
     );
     gsap.fromTo(
       card.current,
       { opacity: 0, scale: 0.95 },
-      { opacity: 1, scale: 1, duration: 1, delay: 0.7, ease: "back.out(1.7)" },
+      { opacity: 1, scale: 1, duration: 1, delay: 0.7, ease: "back.out(1.7)" }
     );
   }, []);
 
@@ -88,14 +88,16 @@ function EventsDetails(props) {
                     <div className="flex flex-col pr-4">
                       {props.pricepool != false && <span>Prize Pool :</span>}
                       <span>Reg Fee:</span>
-                      <span>Reg Deadline:</span>
+                      <span>Date:</span>
+                      <span>Mode:</span>
                     </div>
                     <div className="flex flex-col text-white font-bold">
                       {props.pricepool != false && (
                         <span className="font-normal"> ₹{props.pricepool}</span>
                       )}
                       <span className="font-normal"> ₹{props.regfee}</span>
-                      <span className="font-normal"> {props.enddate}</span>
+                      <span className="font-normal"> {props.date}</span>
+                      <span className="font-normal"> {props.mode}</span>
                     </div>
                   </div>
 
@@ -238,7 +240,7 @@ export async function getStaticProps(context) {
       c2number: post.c2no,
       regfee: post.regfee,
       pricepool: post.pricepool,
-      enddate: post.enddate,
+      date: post.date,
       register: post.reg,
       reglink: post.reglink,
       reg: post.reg,
