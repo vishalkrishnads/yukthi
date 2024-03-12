@@ -34,6 +34,13 @@
           "img": "/sponsors/vr.png",
           "website": "https://raceinstitute.in/",
           "linkedin": "veranda-race"
+        },
+        {
+          "id": "adsdo",
+          "name": "Adsdo",
+          "post": "Media Partner",
+          "img": "/sponsors/adsdo.png",
+          "website": "https://www.instagram.com/ads_do_"
         }
       ]
     },
@@ -62,6 +69,14 @@
           "post": "Pro Programmer Sponsor",
           "img": "/sponsors/tryzens.png",
           "website": "https://tryzens.com/",
+          "linkedin": "tryzens"
+        },
+        {
+          "id": "dnet",
+          "name": "Dnet",
+          "post": "Keyboard Mastery Sponsor",
+          "img": "/sponsors/dnet.png",
+          "website": "https://www.instagram.com/dnet.systems",
           "linkedin": "tryzens"
         }
       ]
