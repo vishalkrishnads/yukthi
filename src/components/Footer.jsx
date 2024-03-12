@@ -3,7 +3,7 @@ import Navlink from "./Navlink";
 import Link from "next/link";
 import { FiArrowDownRight } from "react-icons/fi";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
-import {AiOutlineGlobal} from "react-icons/ai"
+import { AiOutlineGlobal } from "react-icons/ai";
 
 export default function Footer() {
   function scrollToTop() {
@@ -20,7 +20,8 @@ export default function Footer() {
           <p className="font-ibm text-stone-500">Get in Touch</p>
           <Link
             href="mailto:contact@yukthi.org"
-            className="font-chakra font-semibold italic text-2xl">
+            className="font-chakra font-semibold italic text-2xl"
+          >
             contact@yukthi.org
           </Link>
         </div>
@@ -35,6 +36,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-2">
               <Navlink name={"Team"} link={"/teams"} />
+              <Navlink name={"Sponsors"} link={"/sponsors"} />
               <Navlink name={"Contact"} link={"/contact"} />
             </div>
           </div>
@@ -75,7 +77,12 @@ export default function Footer() {
       <div className="font-clash flex justify-between py-2 text-[10px] md:text-xs px-4 border-t-[1.5px] border-gray/40">
         <p>©2024 - YUKTHI STIST </p>
         <span className="flex gap-4">
-          <p>Template forked from <Link href={'https://github.com/Edwinliby/Darpan'}>darpan by @edwinliby</Link></p>
+          <p>
+            Template forked from{" "}
+            <Link href={"https://github.com/Edwinliby/Darpan"}>
+              darpan by @edwinliby
+            </Link>
+          </p>
         </span>
       </div>
     </footer>
