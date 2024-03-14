@@ -54,6 +54,97 @@
           "post": "Media Partner",
           "img": "/sponsors/adsdo.png",
           "website": "https://www.instagram.com/ads_do_"
+        },
+        {
+          "id": "canara",
+          "name": "Canara Bank",
+          "post": "Partner",
+          "img": "/sponsors/canara.png",
+          "website": ""
+        },
+        {
+          "id": "fedbank",
+          "name": "Federal Bank",
+          "post": "Partner",
+          "img": "/sponsors/fedbank.png",
+          "website": ""
+        },
+        {
+          "id": "ksfe",
+          "name": "KSFE",
+          "post": "Partner",
+          "img": "/sponsors/ksfe.png",
+          "website": ""
+        },
+        {
+          "id": "nexa",
+          "name": "Nexa",
+          "post": "Partner",
+          "img": "/sponsors/nexa.png",
+          "website": ""
+        },
+        {
+          "id": "msquare",
+          "name": "M Square",
+          "post": "Partner",
+          "img": "/sponsors/msquare.png",
+          "website": ""
+        },
+        {
+          "id": "cokonet",
+          "name": "Cokonet",
+          "post": "Partner",
+          "img": "/sponsors/cokonet.png",
+          "website": ""
+        },
+        {
+          "id": "supreme",
+          "name": "Supreme Computer",
+          "post": "Partner",
+          "img": "/sponsors/supreme.png",
+          "website": ""
+        },
+        {
+          "id": "ktm",
+          "name": "",
+          "post": "Partner",
+          "img": "/sponsors/ktm.png",
+          "website": "https://www.ktm.com/en-us.html"
+        },
+        {
+          "id": "geenu",
+          "name": "Geenu Paul",
+          "post": "Partner",
+          "img": "/sponsors/geenu.png",
+          "website": ""
+        },
+        {
+          "id": "helmet",
+          "name": "Helmet World",
+          "post": "Partner",
+          "img": "/sponsors/helmet.png",
+          "website": ""
+        },
+        {
+          "id": "xcoders",
+          "name": "XCoders",
+          "post": "Partner",
+          "img": "/sponsors/xcoders.png",
+          "website": ""
+        },
+        {
+          "id": "mech",
+          "name": "Torque",
+          "post": "Partner",
+          "img": "/sponsors/mech.png",
+          "website": ""
+        },
+        {
+          "id": "iedc",
+          "name": "IEDC",
+          "post": "Partner",
+          "img": "/sponsors/iedc.png",
+          "website": ""
         }
       ]
     },
