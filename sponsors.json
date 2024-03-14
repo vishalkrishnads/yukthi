@@ -87,7 +87,7 @@
           "id": "msquare",
           "name": "M Square",
           "post": "Partner",
-          "img": "/sponsors/msquare.png",
+          "img": "/sponsors/msquared.png",
           "website": ""
         },
         {
@@ -106,31 +106,24 @@
         },
         {
           "id": "supreme",
-          "name": "Supreme Computer",
+          "name": "Supreme Computers",
           "post": "Partner",
-          "img": "/sponsors/supreme.png",
+          "img": "/sponsors/acer.png",
           "website": ""
         },
         {
           "id": "ktm",
-          "name": "",
+          "name": "KTM",
           "post": "Partner",
           "img": "/sponsors/ktm.png",
-          "website": "https://www.ktm.com/en-us.html"
-        },
-        {
-          "id": "geenu",
-          "name": "Geenu Paul",
-          "post": "Partner",
-          "img": "/sponsors/geenu.png",
-          "website": ""
+          "website": "https://www.ktm.com"
         },
         {
           "id": "helmet",
           "name": "Helmet World",
           "post": "Partner",
-          "img": "/sponsors/helmet.png",
-          "website": ""
+          "img": "/sponsors/helmetworld.png",
+          "website": "https://www.instagram.com/thehelmet_world"
         },
         {
           "id": "xcoders",
@@ -143,7 +136,7 @@
           "id": "mech",
           "name": "Torque",
           "post": "Partner",
-          "img": "/sponsors/mech.png",
+          "img": "/sponsors/torque.jpg",
           "website": ""
         },
         {
