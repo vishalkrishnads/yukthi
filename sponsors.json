@@ -1,6 +1,19 @@
 {
   "roles": [
     {
+      "name": "Title Sponsors",
+      "sponsors": [
+        {
+          "id": "algani",
+          "name": "Alghanim Technologies",
+          "post": "Title Sponsor",
+          "img": "/sponsors/agt.png",
+          "website": "https://agtkw.com/",
+          "linkedin": "alghanimtechnologies"
+        }
+      ]
+    },
+    {
       "name": "Partners",
       "sponsors": [
         {
