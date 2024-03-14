@@ -66,7 +66,7 @@ function Sponsor(props) {
                               [sponsor.id]: false,
                             }))
                           }
-                          className={`object-cover ${
+                          className={`object-cover sponsor-img ${
                             loading[sponsor.id] !== false
                               ? "w-[0rem] h-[0rem]"
                               : "w-[20rem] h-[22rem]"

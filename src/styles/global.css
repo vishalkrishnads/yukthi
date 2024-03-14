@@ -16,7 +16,7 @@ html {
 }
 
 .map {
-  filter: invert(100%)
+  filter: invert(100%);
 }
 
 ::-webkit-scrollbar {
@@ -28,12 +28,14 @@ html {
   width: 50px;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: repeating-conic-gradient(#CAFA19 0 90deg,#000 0 180deg);
+  background: repeating-conic-gradient(#cafa19 0 90deg, #000 0 180deg);
   animation: l21 1s infinite linear;
 }
 
 @keyframes l21 {
-  100% {transform: rotate(.5turn)}
+  100% {
+    transform: rotate(0.5turn);
+  }
 }
 
 progress {
@@ -53,7 +55,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: #CAFA19;
+  background-color: #cafa19;
 }
 
 .hackNav:hover .navPageNo {
@@ -170,4 +172,8 @@ flex-card-container.active .register {
     height: 100%;
     margin: 0 0 10px 0;
   }
+}
+
+.sponsor-img {
+  object-fit: contain;
 }
