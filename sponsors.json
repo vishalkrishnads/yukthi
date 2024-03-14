@@ -91,6 +91,13 @@
           "website": ""
         },
         {
+          "id": "datascience",
+          "name": "Data Science Academy",
+          "post": "Partner",
+          "img": "/sponsors/datascience.png",
+          "website": ""
+        },
+        {
           "id": "cokonet",
           "name": "Cokonet",
           "post": "Partner",
