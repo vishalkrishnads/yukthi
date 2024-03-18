@@ -1,7 +1,7 @@
 {
   "roles": [
     {
-      "name": "Title Sponsors",
+      "name": "Sponsors",
       "sponsors": [
         {
           "id": "algani",
@@ -10,11 +10,19 @@
           "img": "/sponsors/agt.png",
           "website": "https://agtkw.com/",
           "linkedin": "alghanimtechnologies"
+        },
+        {
+          "id": "leverage",
+          "name": "Leverage Edu",
+          "post": "Gold Sponsor",
+          "img": "/sponsors/leverage.png",
+          "website": "https://leverageedu.com",
+          "linkedin": "leverage-edu"
         }
       ]
     },
     {
-      "name": "Partners",
+      "name": "Co-Sponsors",
       "sponsors": [
         {
           "id": "mulearn",
@@ -25,20 +33,47 @@
           "linkedin": "gtechmulearn"
         },
         {
-          "id": "t1",
+          "id": "unibic",
           "name": "Unibic Foods India",
-          "post": "Cookies and Iftar Partner",
+          "post": "Cookie Partner",
           "img": "/sponsors/unibic.png",
           "website": "https://www.unibicfoods.com/",
           "linkedin": "unibic-biscuits-india-pvt-ltd"
         },
         {
-          "id": "t2",
-          "name": "UniArch Global",
-          "post": "Sponsor",
-          "img": "/sponsors/t2.png",
-          "website": "https://www.uniarch.com/",
-          "linkedin": "uniarch-global"
+          "id": "ksfe",
+          "name": "KSFE",
+          "post": "Co-Sponsor",
+          "img": "/sponsors/ksfe.png",
+          "website": "https://ksfe.com/"
+        },
+        {
+          "id": "zamzam",
+          "name": "Zam Zam",
+          "post": "Iftar Partner",
+          "img": "/sponsors/zamzam.png",
+          "website": "http://www.zamzamrestaurants.com/"
+        },
+        {
+          "id": "acer",
+          "name": "Acer",
+          "post": "Technical Partner",
+          "img": "/sponsors/acer.png",
+          "website": "https://www.acer.com/"
+        },
+        {
+          "id": "nexa",
+          "name": "Nexa",
+          "post": "Driven By",
+          "img": "/sponsors/nexa.png",
+          "website": "https://www.nexaexperience.com/"
+        },
+        {
+          "id": "fedbank",
+          "name": "Federal Bank",
+          "post": "Banking Partner",
+          "img": "/sponsors/fedbank.png",
+          "website": ""
         },
         {
           "id": "vr",
@@ -49,38 +84,18 @@
           "linkedin": "veranda-race"
         },
         {
-          "id": "adsdo",
-          "name": "Adsdo",
-          "post": "Media Partner",
-          "img": "/sponsors/adsdo.png",
-          "website": "https://www.instagram.com/ads_do_"
+          "id": "t2",
+          "name": "UniArch Global",
+          "post": "Sponsor",
+          "img": "/sponsors/t2.png",
+          "website": "https://www.uniarch.com/",
+          "linkedin": "uniarch-global"
         },
         {
           "id": "canara",
           "name": "Canara Bank",
           "post": "Partner",
           "img": "/sponsors/canara.png",
-          "website": ""
-        },
-        {
-          "id": "fedbank",
-          "name": "Federal Bank",
-          "post": "Partner",
-          "img": "/sponsors/fedbank.png",
-          "website": ""
-        },
-        {
-          "id": "ksfe",
-          "name": "KSFE",
-          "post": "Partner",
-          "img": "/sponsors/ksfe.png",
-          "website": ""
-        },
-        {
-          "id": "nexa",
-          "name": "Nexa",
-          "post": "Partner",
-          "img": "/sponsors/nexa.png",
           "website": ""
         },
         {
