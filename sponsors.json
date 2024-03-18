@@ -122,6 +122,74 @@
       ]
     },
     {
+      "name": "Mini Sponsors",
+      "sponsors": [
+        {
+          "id": "milma",
+          "name": "Milma",
+          "post": "",
+          "img": "/sponsors/milma.png",
+          "website": "https://milma.com/"
+        },
+        {
+          "id": "lyceum",
+          "name": "The Lyceum Academy",
+          "post": "",
+          "img": "/sponsors/lyceum.png",
+          "website": ""
+        },
+        {
+          "id": "geebee",
+          "name": "Geebee Education",
+          "post": "",
+          "img": "/sponsors/geebee.png",
+          "website": "https://www.geebeeworld.com/"
+        },
+        {
+          "id": "lottery",
+          "name": "Kerala Bhagyakuri",
+          "post": "",
+          "img": "/sponsors/lottery.png",
+          "website": "https://www.keralalotteries.net/"
+        },
+        {
+          "id": "helmetworld",
+          "name": "The Helmet World",
+          "post": "",
+          "img": "/sponsors/helmetworld.png",
+          "website": "https://www.instagram.com/thehelmet_world/"
+        },
+        {
+          "id": "ktm",
+          "name": "KTM",
+          "post": "",
+          "img": "/sponsors/ktm.png",
+          "website": "https://www.ktm.com/"
+        },
+        {
+          "id": "nyc",
+          "name": "New York Chicken",
+          "post": "",
+          "img": "/sponsors/nyc.png",
+          "website": "https://www.instagram.com/nyc_kerala"
+        },
+        {
+          "id": "ayraa",
+          "name": "Ayraa",
+          "post": "",
+          "img": "/sponsors/ayraa.png",
+          "website": "https://dingg.app/booking/ayraa-skin-rejuvenation-clinic-empire-building"
+        },
+        {
+          "id": "topnotch",
+          "name": "Top Notch IAS",
+          "post": "",
+          "img": "/sponsors/topnotch.png",
+          "website": "https://www.topnotchias.com/"
+        }
+      ]
+    },
+    {
       "name": "Event Sponsors",
       "sponsors": [
         {
