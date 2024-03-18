@@ -135,7 +135,7 @@
           "id": "lyceum",
           "name": "The Lyceum Academy",
           "post": "",
-          "img": "/sponsors/lyceum.png",
+          "img": "/sponsors/lyceum.jpeg",
           "website": ""
         },
         {
@@ -193,6 +193,36 @@
       "name": "Event Sponsors",
       "sponsors": [
         {
+          "id": "msquared",
+          "name": "M Squared",
+          "post": "Hackathon Co-Sponsor",
+          "img": "/sponsors/msquared.png",
+          "website": "https://m2india.com/",
+          "linkedin": "m-squared-software-and-services-pvt-ltd"
+        },
+        {
+          "id": "tryzens",
+          "name": "Tryzens",
+          "post": "Pro Programmer Sponsor",
+          "img": "/sponsors/tryzens.png",
+          "website": "https://tryzens.com/",
+          "linkedin": "tryzens"
+        },
+        {
+          "id": "xcoders",
+          "name": "XCoders",
+          "post": "Blind Programming, CTF",
+          "img": "/sponsors/xcoders.png",
+          "website": "https://www.instagram.com/xcoders_stist/"
+        },
+        {
+          "id": "riglabs",
+          "name": "Riglabs",
+          "post": "CTF, Robotics, AR/VR",
+          "img": "/sponsors/riglabs.png",
+          "website": "https://riglabs.co/"
+        },
+        {
           "id": "webhunt",
           "name": "Scalgo Technologies",
           "post": "Web Hunt Sponsor",
@@ -209,20 +239,19 @@
           "linkedin": "fossunited"
         },
         {
-          "id": "tryzens",
-          "name": "Tryzens",
-          "post": "Pro Programmer Sponsor",
-          "img": "/sponsors/tryzens.png",
-          "website": "https://tryzens.com/",
-          "linkedin": "tryzens"
-        },
-        {
           "id": "dnet",
           "name": "Dnet",
           "post": "Keyboard Mastery Sponsor",
           "img": "/sponsors/dnet.png",
           "website": "https://www.instagram.com/dnet.systems",
           "linkedin": "tryzens"
+        },
+        {
+          "id": "futurecad",
+          "name": "Future CAD",
+          "post": "Spanathon",
+          "img": "/sponsors/futurecad.png",
+          "website": "https://www.futurecad.in/"
         }
       ]
     }
